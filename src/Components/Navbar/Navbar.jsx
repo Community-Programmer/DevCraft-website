@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import "./Navbar.css";
 import logo from "../../Assets/Logo/logo.png";
 import { Link, Outlet } from "react-router-dom";
-import { SiGoogletranslate } from "react-icons/si";
 import { IoMailOutline } from "react-icons/io5";
 import { FaPhone } from "react-icons/fa6";
 import { IoMenu } from "react-icons/io5";
@@ -109,7 +108,6 @@ const Navbar = () => {
     <div class = "info-nav">
     <div class="info-1">
         <ul>
-            <li> <a href="hindi"> <SiGoogletranslate /> translator </a> </li>
             <li> <a href="email"> <IoMailOutline /> pucollege.com </a> </li>
             <li> <FaPhone /> 9634236706   </li>
         </ul>
@@ -117,8 +115,8 @@ const Navbar = () => {
 
     <div class="info-2">
         <ul>
-            <li> <a href="NIRF"> NIRF </a> </li>
-            <li> <Link to="/contact"> HELP </Link> </li>
+            <li> <Link to="/academic-overview"> Overview </Link> </li>
+            <li> <Link to="/contact"> Help </Link> </li>
             <li> <button class = "support"> Support PU COLLEGE </button>  </li>
         </ul>
     </div>
