@@ -11,11 +11,10 @@ const Timetable = () => {
         <div>
           <h1 className="main-heading">Timetable</h1>
           <p>
-            Welcome to our academic overview page of Government Institution, RajanaKunte. Here, we invite you to
-            explore the rich landscape of knowledge and intellectual inquiry
-            that defines our academic institution. From the pursuit of
-            excellence in education to groundbreaking research endeavors, our
-            institution stands as a beacon of learning and innovation
+            Welcome to our Time table page of Government Institution, RajanaKunte. Here, we invite you to
+            explore meticulously crafted to harmonize learning and work activities, it stands as a guide for
+            individuals seeking balance, productivity, and success in their daily endeavors within the institution's
+            vibrant academic and professional landscape."
           </p>
         </div>
       </div>
