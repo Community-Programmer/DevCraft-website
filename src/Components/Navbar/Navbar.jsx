@@ -118,7 +118,7 @@ const Navbar = () => {
     <div class="info-2">
         <ul>
             <li> <a href="NIRF"> NIRF </a> </li>
-            <li> <a href="help"> HELP </a> </li>
+            <li> <Link to="/contact"> HELP </Link> </li>
             <li> <button class = "support"> Support PU COLLEGE </button>  </li>
         </ul>
     </div>
