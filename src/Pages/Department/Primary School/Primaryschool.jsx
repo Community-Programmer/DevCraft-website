@@ -18,11 +18,12 @@ const Primaryschool = () => {
         <div>
           <h1 className="main-heading">Primary School</h1>
           <p>
-            Welcome to our Admission Page! Explore exciting opportunities and
-            embark on a journey of academic excellence. Discover the key to
-            unlocking your potential and join a community dedicated to fostering
-            growth, knowledge, and success. Your educational adventure begins
-            here!
+            Welcome to our primary school department Page! This serves as a
+            portal to the vibrant world of learning, where curiosity is sparked,
+            and foundational skills are nurtured. Explore our commitment to providing
+            a stimulating and safe environment, dedicated educators, and a curriculum
+            designed to ignite the intellectual and creative potential of every young 
+            learner.
           </p>
         </div>
         </div>

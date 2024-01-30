@@ -20,11 +20,18 @@ const HighSchool = () => {
         <div>
           <h1 className="main-heading">High School</h1>
           <p>
-            Welcome to our Admission Page! Explore exciting opportunities and
-            embark on a journey of academic excellence. Discover the key to
-            unlocking your potential and join a community dedicated to fostering
-            growth, knowledge, and success. Your educational adventure begins
-            here!
+            Welcome to our High school department page! This page is a testament to our
+            commitment to fostering a nurturing environment where young minds
+            flourish. Explore the comprehensive educational offerings, dedicated
+            faculty, and a myriad of extracurricular activities that contribute
+            to the holistic development of students. We strive to empower the leaders of 
+            tomorrow through a blend of academic rigor and character-building experiences.
+
+
+
+
+
+
           </p>
         </div>
       </div>
