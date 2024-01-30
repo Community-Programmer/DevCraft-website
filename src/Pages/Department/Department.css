@@ -1,11 +1,30 @@
 .college-section{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 1rem;
     
 }
 
+.course-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    width: 20%;
+    border-radius: 10px;
+    padding: 1rem;
+
+}
+
+.course-card img{
+    width: 120px;
+}
+
 .college-section .btn{
-    width: 50%;
+    width: 100%;
 }
 
 
@@ -35,5 +54,8 @@
         width: 90%;
     }
 
+    .course-card{
+        width: 50%;
+    }
 
 }
