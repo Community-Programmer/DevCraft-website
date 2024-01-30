@@ -119,8 +119,7 @@ const Primaryschool = () => {
           <div className="committee-card">
             <img src={Faculties7} alt="faculties" />
             <div className="profile-info">
-              <h3>Kalpana T.R</h3>
-              <span>Head Master</span>
+              <h3>Soumya R</h3>
 
               <p>Education - MA,B.Ed, BA</p>
               <p>Date of Joining - 06-06-2020</p>
