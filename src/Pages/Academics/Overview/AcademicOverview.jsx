@@ -20,7 +20,7 @@ const AcademicOverview = () => {
 
       <div class="text-container">
         <h2> Academics Overview </h2>
-        <h3> Government Pre-University (PU) Colleges in Karnataka: </h3>
+        <h3> Government Pre-University (PU) Colleges in Karnataka </h3>
 
         <p>
           Government Pre-University (PU) colleges in Karnataka play a vital role
@@ -71,7 +71,7 @@ const AcademicOverview = () => {
           Department or the respective college authorities.
         </p>
 
-        <h3> Government Schools in Karnataka: </h3>
+        <h3> Government Schools in Karnataka </h3>
 
         <p>
           Government schools in Karnataka form the foundation of a student's
