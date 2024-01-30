@@ -44,17 +44,15 @@ const Facilities = () => {
   return (
     <>
     <div class = "heading">
-        <h1> SALIENT FEATURES &amp; FEATURES </h1>
+        <h1> SALIENT FEATURES &amp; FACILITIES </h1>
     </div>
 
     <div class = "feature">
         <ul>
-            <li> Government PU colleges in Karnataka are typically affiliated with the Department of Pre-University Education, Karnataka (PUE). </li>
-            <li> The medium of instruction is Kannada. </li>
+            <li> The medium of instruction is English/Kannada. </li>
             <li> Our schools use latest technology for effective teaching, learning such as LCD, HOP, Computer and Internet/wi-fi facility. </li>
             <li> Students are motivated to take part in all types of games, yoga and co-curricular activities.</li>
-            <li> The schools have well equipped libraries, reading rooms, laboratories for Physics, Chemistry, Biology and Computer Science with internet connectivity. </li>
-            <li> Spacious and well ventilated classrooms. </li>
+            <li> The schools have well equipped laboratories for Physics, Chemistry, Biology and Computer Science with internet connectivity. </li>
             <li> Sports and game facilities. Spacious play ground for out door activities. </li>
             <li> Celebration of National festivals and other important days in order to develop a feeling of "INDIANNESS". </li>
             <li> Active participation of students in scholastic and co-scholastic activities. </li>
@@ -62,6 +60,7 @@ const Facilities = () => {
     </div>
 
   {/* Computer Lab */}
+  <div class = "whole-container">
   <div class= "sub-container"> <h1 class ="sub-heading"> COMPUTER LAB </h1> </div>
      
    <div class = "facilities-image">
@@ -130,6 +129,8 @@ const Facilities = () => {
        <img src={Ground1} alt="ground"/>
        <img src={Ground2} alt="ground"/>
        <img src={Ground3} alt="ground"/>
+   </div>
+
    </div>
     
     

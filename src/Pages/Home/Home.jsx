@@ -131,7 +131,7 @@ const Home = () => {
       <div className="home-section">
         <div className="home-card-container">
           <div className="home-card" data-aos="flip-left" data-aos-duration="1000">
-            <LuSchool />
+           
             <h3>The Government PU college, Rajanakunte</h3>
             <p>
               The Government PU College, Rajanakunte, Bangalore, Karnataka, has
