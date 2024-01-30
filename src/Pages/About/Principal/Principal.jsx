@@ -3,12 +3,32 @@ import Principal1 from "../../../Assets/About/PC.png";
 import Principal2 from "../../../Assets/About/PHS.png";
 import Principal3 from "../../../Assets/About/PPS.png";
 
+
+import overview from "../../../Assets/Academic Page/Overview.jpg";
+
 const Principal = () => {
   return (
     <>
+     <div className="box-heading">
+        <img src={overview} alt="scholarship" />
+        <div>
+          <h1 className="main-heading"> Principal </h1>
+          <p>
+            Welcome to the Principal page! This page provides a glimpse
+            into the wealth of experience, dedication, and vision that 
+            brings to our institution. As a  leader,  is committed
+             to fostering a nurturing learning environment, encouraging
+              innovation, and ensuring the development of every
+              student. Join us in celebrating the leadership that shapes 
+              the educational journey at Rajanakunte, where  inspires
+              students towards a future of success and accomplishment."
+          </p>
+        </div>
+      </div>
+
       <div className="committee-section">
         <div>
-          <h1 className="main-heading">Incharge Pricipal Of PU college</h1>
+          <h1 className="main-heading">Incharge Principal Of PU college</h1>
           <div className="committee-card">
             <img src={Principal1} alt="principal" />
             <div className="profile-info">
@@ -50,7 +70,7 @@ const Principal = () => {
         </div>
 
         <div>
-          <h1 className="main-heading">Incharge Pricipal Of Primary School</h1>
+          <h1 className="main-heading">Incharge Principal Of Primary School</h1>
           <div className="committee-card">
             <img src={Principal3} alt="principal" />
             <div className="profile-info">

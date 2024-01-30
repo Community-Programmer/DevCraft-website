@@ -12,13 +12,14 @@ const Member = () => {
       <div className="box-heading">
         <img src={overview} alt="scholarship" />
         <div>
-          <h1 className="main-heading">Board of Members</h1>
+          <h1 className="main-heading"> Board of Members </h1>
           <p>
-            Welcome to our Admission Page! Explore exciting opportunities and
-            embark on a journey of academic excellence. Discover the key to
-            unlocking your potential and join a community dedicated to fostering
-            growth, knowledge, and success. Your educational adventure begins
-            here!
+            Welcome to our Boards of member Page! It provides insight into 
+            the dynamic personalities and diverse expertise of our board
+             members, showcasing their unwavering dedication to fostering
+              an environment of learning, inclusivity, and progress. Join 
+              us in acknowledging and appreciating the leadership that
+               propels our institution toward new heights of success and distinction.
           </p>
         </div>
       </div>
