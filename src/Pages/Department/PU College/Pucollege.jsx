@@ -3,6 +3,10 @@ import overview from "../../../Assets/Academic Page/Overview.jpg";
 import { useNavigate } from 'react-router-dom';
 import '../Department.css'
 
+import arts from '../../../Assets/Department/homework.png'
+import science from '../../../Assets/Department/atom.png'
+import growth from '../../../Assets/Department/growth.png'
+
 
 const Pucollege = () => {
 
@@ -30,13 +34,20 @@ const Pucollege = () => {
 
       <div className="college-section">
         
+        <div className="course-card">
+        <img src={arts} alt="science" />
       <button className="btn" onClick={() =>handleBtnClick('/arts')}>Arts</button>
+        </div>
       
+        <div className="course-card">
+        <img src={science} alt="science" />
       <button className="btn" onClick={() =>handleBtnClick('/science')}>Science</button>
-      
+      </div>
+      <div className="course-card">
+      <img src={growth} alt="science" />
       <button className="btn" onClick={() =>handleBtnClick('/commerce')}>Commerce</button>
       </div>
-    
+    </div>
     </>
   )
 }
