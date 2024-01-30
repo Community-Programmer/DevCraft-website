@@ -3,6 +3,11 @@ import '../Academics.css'
 import overview from "../../../Assets/Academic Page/Overview.jpg";
 import primary from '../../../Assets/Timetable/primary.png'
 
+import CollegeTimetable from '../../../Downloads/CollegeTimetable.pdf'
+import PrimaryTimetable from '../../../Downloads/PrimaryTimetable.pdf'
+import HighSchoolTimetable from '../../../Downloads/HighSchoolTimetable.pdf'
+import { Link } from 'react-router-dom';
+
 const Timetable = () => {
   return (
     <>
@@ -20,7 +25,18 @@ const Timetable = () => {
       </div>
 
 
+   
+    <div className="wrap-container">
     <h1 className="main-heading">The Government PU College, Rajanakunte</h1>
+        <Link
+          to={CollegeTimetable}
+          download="CollegeTimetable"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="btn">Download Pdf</button>
+        </Link>
+      </div>
 
     <div className="timetable-section">
     <table class="tg">
@@ -534,7 +550,18 @@ const Timetable = () => {
 
     </div>
 
+    <div className="wrap-container">
   <h1 className="main-heading">The Government High School, Rajanakunte</h1>
+        <Link
+          to={HighSchoolTimetable}
+          download="HighSchoolTimetable"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="btn">Download Pdf</button>
+        </Link>
+      </div>
+
     <div className="timetable-section">
     <table class="tg">
 <thead>
@@ -858,7 +885,18 @@ const Timetable = () => {
 
 </div>
 
+
+<div className="wrap-container">
 <h1 className="main-heading">The Government Primary School, Rajanakunte</h1>
+        <Link
+          to={PrimaryTimetable}
+          download="PrimaryTimetable"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="btn">Download Pdf</button>
+        </Link>
+      </div>
 <div className="timetable-section">
   
   <img src={primary} alt="timetable" />
