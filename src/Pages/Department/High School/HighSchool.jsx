@@ -127,7 +127,7 @@ const HighSchool = () => {
         <div className="committee-card">
           <img src={Faculties5} alt="faculties" />
           <div className="profile-info">
-            <h3>SManjula Bai S (Hindi)</h3>
+            <h3>Manjula Bai S (Hindi)</h3>
             <span>
             Head of Library Dept. - GHS
             </span>
