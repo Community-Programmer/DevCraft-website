@@ -30,7 +30,7 @@ const Footer = () => {
             <li> <i class="fa-solid fa-arrow-right"></i> <Link to="/events"> School Events </Link> </li>
             <li> <i class="fa-solid fa-arrow-right"></i> <Link to="/gallery-images"> Photo Gallery </Link> </li>
             <li> <i class="fa-solid fa-arrow-right"></i> <Link to="/fee"> Fee Structure </Link> </li>
-            <li> <i class="fa-solid fa-arrow-right"></i> <Link to=""> Mandatory Public Disclosure </Link> </li>
+           
 
         </ul>
         <img src={logo} alt="school logo"/>
