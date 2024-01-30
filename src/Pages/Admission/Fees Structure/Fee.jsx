@@ -16,12 +16,12 @@ const Fee = () => {
         <div>
           <h1 className="main-heading">Fee Structure</h1>
           <p>
-            Welcome to our academic overview page of Government Institution,
-            RajanaKunte. Here, we invite you to explore the rich landscape of
-            knowledge and intellectual inquiry that defines our academic
-            institution. From the pursuit of excellence in education to
-            groundbreaking research endeavors, our institution stands as a
-            beacon of learning and innovation
+            Welcome to our fee structure page of Government Institution,
+            RajanaKunte.This guide provides valuable insights into the 
+            financial aspects, ensuring clarity and accessibility for 
+            prospective students. Here is a comprehensive overview to 
+            empower your journey towards academic excellence within the 
+            institution's affordable and student-friendly framework.
           </p>
         </div>
       </div>
