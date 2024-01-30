@@ -1,0 +1,24 @@
+.loader{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader img{
+    width: 450px;
+}
+
+.loader h1{
+    text-align: center;
+}
+
+@media only screen and (max-width: 468px) {
+
+    .loader img{
+        width: 350px;
+    }
+
+}

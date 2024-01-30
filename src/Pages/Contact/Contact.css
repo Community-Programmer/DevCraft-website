@@ -1,0 +1,54 @@
+.contact-section{
+    display: flex;
+    margin: 1rem;
+}
+
+.contact-section i{
+    color: #EC3030;
+}
+
+.contact-section h3{
+    color: #192F59;
+}
+
+.contact-section iframe{
+    width: 50%;
+
+}
+
+.contact-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+    width: 50%;
+}
+
+.contact-upper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-down{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-down div{
+    line-height: 1rem;
+}
+
+@media only screen and (max-width: 468px) {
+
+    .contact-section{
+        flex-direction: column-reverse;
+    }
+
+    .contact-information{
+        width: 100%;
+    }
+
+    .contact-section iframe{
+        width: 100%;
+    
+    }
+}

@@ -1,0 +1,22 @@
+.fee-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .fee-section{
+        flex-direction: column;
+        overflow-x: auto;
+    }
+
+    .text-container .counter-section .counter h1{
+        font-size: 1.8rem;
+    }
+
+  
+}
+
+

@@ -1,0 +1,173 @@
+.home-slideshow{
+    padding:0 10px;
+}
+
+
+.image img{
+    width: 100%;
+    margin: auto;
+    height: 70vh;
+    object-fit: cover;
+}
+
+
+.slick-prev {
+    left: 10px !important;
+    z-index: 1;
+}
+
+.slick-next {
+    right: 16px !important;
+    z-index: 1;
+}
+
+.slick-prev::before{
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 30px !important;
+}
+
+.slick-next::before{
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 30px !important;
+}
+/* Info section */
+
+
+.home-section-card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: #fff;
+    box-shadow: 5px 5px 10px gray;
+    width: 90%;
+    margin: auto;
+}
+
+.info-card{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.info-card:hover{
+    box-shadow: 5px 5px 10px gray;
+}
+
+.info-text{
+    line-height: 2px;
+    
+}
+
+
+/* Couter Section */
+
+.counter-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 5rem; */
+    line-height: 20px;
+}
+
+.counter-section h1{
+    font-size: 3rem;
+    color: #192F59;
+}
+
+.plus{
+    color: rgb(236, 48, 48);
+}
+
+.counter-section p{
+    font-size: 1.5rem;
+    color: grey;
+}
+
+
+
+/* Home section */
+
+.home-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.home-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.home-section span{
+    /* line-height: 0.5px; */
+    font-size: 1.1rem;
+}
+
+.home-card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    border-radius:15px 50px;
+    padding: 1.1rem;
+    width: 350px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.home-card img{
+    width: 100%;
+}
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width:1000px; 
+    margin: 50px auto;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  
+/* Home page responsiveness */
+
+
+@media only screen and (max-width: 468px) {
+
+    .home-card-container{
+        flex-direction: column;
+    }
+
+    .home-card{
+        width: auto;
+    }
+    .home-section-card-container{
+        grid-template-columns: 1fr;
+    }
+
+    .image img{
+        height: 30vh;
+        width: 100%;
+    }
+   
+    .home-slideshow{
+        padding: 0;
+    }
+
+    .home-section{
+        flex-direction: column;
+    }
+
+    .counter-section .counter h1{
+        font-size: 2.5rem;
+    }
+}

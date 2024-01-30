@@ -1,38 +1,88 @@
-.App {
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.main-heading{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.center-text{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn{
+  font-size: 1rem;
+  border: 1px solid #192F59;
+  border-radius: 0.5rem;
+  background-color: #213a68;
+  padding: 10px 15px;
+  margin: 1.5rem;
+  cursor: pointer;
+  color: #fff;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn:hover{
+  background-color: #375283;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.wrap-container{
+  /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrap-container h1{
+    width: 80%;
+  }
+  
+  
+  .wrap-container .btn{
+    background-color: #EC3030;
+    color: #fff;
+  }
+  
+/* Global Css For Tables */
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.tg td, .tg th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg th {
+  font-weight: normal;
+}
+
+.tg .tg-8d8j {
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.tg .tg-7zrl {
+  text-align: left;
+  vertical-align: bottom;
+}
+
+/* Responsive styles using media queries */
+@media (max-width: 600px) {
+  .tg td, .tg th {
+    font-size: 12px;
   }
 }

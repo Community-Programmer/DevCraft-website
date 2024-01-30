@@ -1,0 +1,871 @@
+import React from 'react'
+import '../Academics.css'
+import overview from "../../../Assets/Academic Page/Overview.jpg";
+import primary from '../../../Assets/Timetable/primary.png'
+
+const Timetable = () => {
+  return (
+    <>
+      <div className="box-heading">
+        <img src={overview} alt="scholarship" />
+        <div>
+          <h1 className="main-heading">Timetable</h1>
+          <p>
+            Welcome to our academic overview page of Government Institution, RajanaKunte. Here, we invite you to
+            explore the rich landscape of knowledge and intellectual inquiry
+            that defines our academic institution. From the pursuit of
+            excellence in education to groundbreaking research endeavors, our
+            institution stands as a beacon of learning and innovation
+          </p>
+        </div>
+      </div>
+
+
+    <h1 className="main-heading">The Government PU College, Rajanakunte</h1>
+
+    <div className="timetable-section">
+    <table class="tg">
+<thead>
+  <tr>
+    <th class="tg-8d8j" colspan="7">MONDAY</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-nrix">CLASS</td>
+    <td class="tg-7zrl">9:30 - 10:30</td>
+    <td class="tg-7zrl">10:30 - 11:30</td>
+    <td class="tg-7zrl">11:30 - 12:30</td>
+    <td class="tg-7zrl">12:30 - 1:00</td>
+    <td class="tg-7zrl">1:00 - 2:00</td>
+    <td class="tg-7zrl">2:00 - 4:00</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IPCMB</td>
+    <td class="tg-7zrl">BIO/CS</td>
+    <td class="tg-7zrl">PHY</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-nrix" rowspan="8">LUNCH<br/>TIME</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">P/C</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IIPCMB</td>
+    <td class="tg-7zrl">MATHS</td>
+    <td class="tg-7zrl">CHE</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">BIO/CS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IHEBA</td>
+    <td class="tg-7zrl">HIS</td>
+    <td class="tg-7zrl">BS</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">ACC</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IIHEBA</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">BS</td>
+    <td class="tg-7zrl">ACC</td>
+    <td class="tg-7zrl">ECO</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">ICEBA</td>
+    <td class="tg-7zrl">CS</td>
+    <td class="tg-7zrl">ACC</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">BS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IICEBA</td>
+    <td class="tg-7zrl">BS</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">ACC</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">CS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IHEPS</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">SOC</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">HIS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IIHEPS</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">PS</td>
+    <td class="tg-7zrl">SOC</td>
+    <td class="tg-7zrl">ECO</td>
+  </tr>
+</tbody>
+</table>
+
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-8d8j" colspan="7">TUESDAY</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-nrix">CLASS</td>
+    <td class="tg-7zrl">9:30 - 10:30</td>
+    <td class="tg-7zrl">10:30 - 11:30</td>
+    <td class="tg-7zrl">11:30 - 12:30</td>
+    <td class="tg-7zrl">12:30 - 1:00</td>
+    <td class="tg-7zrl">1:00 - 2:00</td>
+    <td class="tg-7zrl">2:00 - 3:00</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IPCMB</td>
+    <td class="tg-7zrl">PHY</td>
+    <td class="tg-7zrl">CHE</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-nrix" rowspan="8">LUNCH<br/>TIME</td>
+    <td class="tg-7zrl">BIO/CS</td>
+    <td class="tg-7zrl">MATHS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IIPCMB</td>
+    <td class="tg-7zrl">CHE</td>
+    <td class="tg-7zrl">MATHS</td>
+    <td class="tg-7zrl">BIO/CS</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">PHY</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IHEBA</td>
+    <td class="tg-7zrl">BS</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">ACC</td>
+    <td class="tg-7zrl">HIS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IIHEBA</td>
+    <td class="tg-7zrl">HIS</td>
+    <td class="tg-7zrl">ACC</td>
+    <td class="tg-7zrl">BS</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">KAN</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">ICEBA</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">BS</td>
+    <td class="tg-7zrl">ACC</td>
+    <td class="tg-7zrl">SC</td>
+    <td class="tg-7zrl">KAN</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IICEBA</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">CS</td>
+    <td class="tg-7zrl">BS</td>
+    <td class="tg-7zrl">ECO</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IHEPS</td>
+    <td class="tg-7zrl">PS</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">HIS</td>
+    <td class="tg-7zrl">ECO</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IIHEPS</td>
+    <td class="tg-7zrl">HIS</td>
+    <td class="tg-7zrl">SOC</td>
+    <td class="tg-7zrl">PS</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">KAN</td>
+  </tr>
+</tbody>
+</table>
+
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-8d8j" colspan="7">WEDNESDAY</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-nrix">CLASS</td>
+    <td class="tg-7zrl">9:30 - 10:30</td>
+    <td class="tg-7zrl">10:30 - 11:30</td>
+    <td class="tg-7zrl">11:30 - 12:30</td>
+    <td class="tg-7zrl">12:30 - 1:00</td>
+    <td class="tg-7zrl">1:00 - 2:00</td>
+    <td class="tg-7zrl">2:00 - 4:00</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IPCMB</td>
+    <td class="tg-7zrl">MATHS</td>
+    <td class="tg-7zrl">CHE</td>
+    <td class="tg-7zrl">PHY</td>
+    <td class="tg-nrix" rowspan="8">LUNCH<br/>TIME</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">MATHS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IIPCMB</td>
+    <td class="tg-7zrl">CHE</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">MATHS</td>
+    <td class="tg-7zrl">PHY</td>
+    <td class="tg-7zrl">P/C</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IHEBA</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">ACC</td>
+    <td class="tg-7zrl">HIS</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">KAN</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IIHEBA</td>
+    <td class="tg-7zrl">BS</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">HIS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">ICEBA</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">BS</td>
+    <td class="tg-7zrl">ACC</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">ENG</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IICEBA</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">BS</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">ACC</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IHEPS</td>
+    <td class="tg-7zrl">HIS</td>
+    <td class="tg-7zrl">PS</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">SOC</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IIHEPS</td>
+    <td class="tg-7zrl">SOC</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">HIS</td>
+  </tr>
+</tbody>
+</table>
+
+
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-8d8j" colspan="7">THURSDAY</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-nrix">CLASS</td>
+    <td class="tg-7zrl">9:30 - 10:30</td>
+    <td class="tg-7zrl">10:30 - 11:30</td>
+    <td class="tg-7zrl">11:30 - 12:30</td>
+    <td class="tg-7zrl">12:30 - 1:00</td>
+    <td class="tg-7zrl">1:00 - 2:00</td>
+    <td class="tg-7zrl">2:00 - 4:00</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IPCMB</td>
+    <td class="tg-7zrl">MATHS</td>
+    <td class="tg-7zrl">BIO/CS</td>
+    <td class="tg-7zrl">CHE</td>
+    <td class="tg-nrix" rowspan="8">LUNCH<br/>TIME</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">P/C</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IIPCMB</td>
+    <td class="tg-7zrl">CHE</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">PHY</td>
+    <td class="tg-7zrl">MATHS</td>
+    <td class="tg-7zrl">BIO/CS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IHEBA</td>
+    <td class="tg-7zrl">HIS</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">BS</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">ENG</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IIHEBA</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">BS</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">HIS</td>
+    <td class="tg-7zrl">ENG</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">ICEBA</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">CS</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">ACC</td>
+    <td class="tg-7zrl">LAB</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IICEBA</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">ACC</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">BS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IHEPS</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">SOC</td>
+    <td class="tg-7zrl">HIS</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">PS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IIHEPS</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">PS</td>
+    <td class="tg-7zrl">SOC</td>
+    <td class="tg-7zrl">HIS</td>
+    <td class="tg-7zrl">ENG</td>
+  </tr>
+</tbody>
+</table>
+      
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-8d8j" colspan="7">FRIDAY</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-nrix">CLASS</td>
+    <td class="tg-7zrl">9:30 - 10:30</td>
+    <td class="tg-7zrl">10:30 - 11:30</td>
+    <td class="tg-7zrl">11:30 - 12:30</td>
+    <td class="tg-7zrl">12:30 - 1:00</td>
+    <td class="tg-7zrl">1:00 - 2:00</td>
+    <td class="tg-7zrl">2:00 - 4:00</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IPCMB</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">CHE</td>
+    <td class="tg-7zrl">MATHS</td>
+    <td class="tg-nrix" rowspan="8">LUNCH<br/>TIME</td>
+    <td class="tg-7zrl">BIO/CS</td>
+    <td class="tg-7zrl">BIO/CS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IIPCMB</td>
+    <td class="tg-7zrl">BIO/CS</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">PHY</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">P/C</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IHEBA</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">HIS</td>
+    <td class="tg-7zrl">ACC</td>
+    <td class="tg-7zrl">BS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IIHEBA</td>
+    <td class="tg-7zrl">HIS</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">ACC</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">ICEBA</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">BS</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">CS</td>
+    <td class="tg-7zrl">ECO</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IICEBA</td>
+    <td class="tg-7zrl">CS</td>
+    <td class="tg-7zrl">ACC</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">BS</td>
+    <td class="tg-7zrl">LAB</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IHEPS</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">SOC</td>
+    <td class="tg-7zrl">PS</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">ENG</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IIHEPS</td>
+    <td class="tg-7zrl">HIS</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">PS</td>
+  </tr>
+</tbody>
+</table>
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-8d8j" colspan="7">SATURDAY</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-nrix">CLASS</td>
+    <td class="tg-7zrl">9:30 - 10:30</td>
+    <td class="tg-7zrl">10:30 - 11:30</td>
+    <td class="tg-7zrl">11:30 - 12:30</td>
+    <td class="tg-7zrl">12:30 - 1:00</td>
+    <td class="tg-7zrl">1:00 - 2:00</td>
+    <td class="tg-7zrl">2:00 - 3:00</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IPCMB</td>
+    <td class="tg-7zrl">PHY</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-nrix" rowspan="8">LUNCH<br/>TIME</td>
+    <td class="tg-7zrl">MATHS</td>
+    <td class="tg-7zrl">LAB</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IIPCMB</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">BIO/CS</td>
+    <td class="tg-7zrl">MATHS</td>
+    <td class="tg-7zrl">PHY</td>
+    <td class="tg-7zrl">KAN</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IHEBA</td>
+    <td class="tg-7zrl">BS</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">ACC</td>
+    <td class="tg-7zrl">ECO</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IIHEBA</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">ACC</td>
+    <td class="tg-7zrl">HIS</td>
+    <td class="tg-7zrl">BS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">ICEBA</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">BS</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">ACC</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IICEBA</td>
+    <td class="tg-7zrl">ACC</td>
+    <td class="tg-7zrl">CS</td>
+    <td class="tg-7zrl">KAN</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">ENG</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IHEPS</td>
+    <td class="tg-7zrl">PS</td>
+    <td class="tg-7zrl">HIS</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">SOC</td>
+    <td class="tg-7zrl">KAN</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">IIHEPS</td>
+    <td class="tg-7zrl">ENG</td>
+    <td class="tg-7zrl">ECO</td>
+    <td class="tg-7zrl">SOC</td>
+    <td class="tg-7zrl">HIS</td>
+    <td class="tg-7zrl">PS</td>
+  </tr>
+</tbody>
+</table>
+
+    </div>
+
+  <h1 className="main-heading">The Government High School, Rajanakunte</h1>
+    <div className="timetable-section">
+    <table class="tg">
+<thead>
+  <tr>
+    <th class="tg-7zrl">DAY</th>
+    <th class="tg-7zrl">CLASS</th>
+    <th class="tg-7zrl">1</th>
+    <th class="tg-7zrl">2</th>
+    <th class="tg-7zrl">3</th>
+    <th class="tg-7zrl"></th>
+    <th class="tg-7zrl">4</th>
+    <th class="tg-7zrl">5</th>
+    <th class="tg-7zrl"></th>
+    <th class="tg-7zrl">6</th>
+    <th class="tg-7zrl">7</th>
+    <th class="tg-7zrl">8</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl">9:30<br/>TO<br/>10:10</td>
+    <td class="tg-7zrl">10:10<br/>TO<br/>10:50</td>
+    <td class="tg-7zrl">10:50<br/>TO<br/>11:30</td>
+    <td class="tg-7zrl">11:30<br/>TO<br/>11:40</td>
+    <td class="tg-7zrl">11:40<br/>TO<br/>12:20</td>
+    <td class="tg-7zrl">12:20<br/>TO<br/>1:00</td>
+    <td class="tg-7zrl">1:00<br/> TO<br/> 1:30</td>
+    <td class="tg-7zrl">1:30<br/>TO<br/> 2:10</td>
+    <td class="tg-7zrl">2:10<br/>TO<br/>2:50</td>
+    <td class="tg-7zrl">2:50<br/>TO<br/> 3:30</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" rowspan="4">MONDAY</td>
+    <td class="tg-7zrl">9A</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">SMB</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-nrix" rowspan="12">SHORT BREAK</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-nrix" rowspan="12">LUNCH BREAK</td>
+    <td class="tg-7zrl">VB</td>
+    <td class="tg-7zrl">HS</td>
+    <td class="tg-7zrl">HM</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">9B</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">SMB</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">HM</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">10A</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">SMB</td>
+    <td class="tg-7zrl">VB</td>
+    <td class="tg-7zrl">HS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">10B</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">SMB</td>
+    <td class="tg-7zrl">LIB</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">VB</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" rowspan="4">TUESDAY</td>
+    <td class="tg-7zrl">9A</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">SMB</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">COMP</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">KMV</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">9B</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">HS</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">SMB</td>
+    <td class="tg-7zrl">COMP</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">10A</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">SMB</td>
+    <td class="tg-7zrl">HM</td>
+    <td class="tg-7zrl">VB</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">10B</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">SMB</td>
+    <td class="tg-7zrl">VB</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">HM</td>
+    <td class="tg-7zrl">SG</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" rowspan="4">WEDNES<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DAY</td>
+    <td class="tg-7zrl">9A</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">SMB</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">VB</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">SG</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">9B</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">VB</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">HS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">10A</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">SMB</td>
+    <td class="tg-7zrl">STEM</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">VB</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">10B</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">SMB</td>
+    <td class="tg-7zrl">VB</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">SMS</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" rowspan="4">THURS<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DAY</td>
+    <td class="tg-7zrl">9A</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-8d8j" rowspan="4"></td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">SMB</td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">HS</td>
+    <td class="tg-7zrl">VB</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">9B</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">VB</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">HS</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">HS</td>
+    <td class="tg-7zrl">SMS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">10A</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">COMP</td>
+    <td class="tg-7zrl">HS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">10B</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">SMB</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">COMP</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" rowspan="4">FRIDAY</td>
+    <td class="tg-7zrl">9A</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-nrix" rowspan="4">SHORT<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BREAK</td>
+    <td class="tg-7zrl">HS</td>
+    <td class="tg-7zrl">SMB</td>
+    <td class="tg-nrix" rowspan="4">LUNCH<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BREAK</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">CCE</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">9B</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">VB</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">SMB</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">CCE</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">10A</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">SMB</td>
+    <td class="tg-7zrl">HM</td>
+    <td class="tg-7zrl">CCE</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">10B</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">STEM</td>
+    <td class="tg-7zrl">HM</td>
+    <td class="tg-7zrl">CCE</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" rowspan="5">SATURDAY</td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl">8:10<br/>TO<br/> 8:50</td>
+    <td class="tg-7zrl">8:50<br/>TO<br/> 9:30</td>
+    <td class="tg-7zrl">9:30<br/>TO<br/> 10:10</td>
+    <td class="tg-7zrl">10:10<br/> TO<br/> 10:50</td>
+    <td class="tg-7zrl">10:50<br/> TO<br/> 11:30</td>
+    <td class="tg-7zrl">11:30<br/>TO<br/>12:00</td>
+    <td class="tg-8d8j" colspan="4" rowspan="6"></td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">9A</td>
+    <td class="tg-nrix" rowspan="4">YOGA</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">HS</td>
+    <td class="tg-nrix" rowspan="4">TIFFIN<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BREAK</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">9B</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">SMB</td>
+    <td class="tg-7zrl">KMV</td>
+    <td class="tg-7zrl">VB</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">10A</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">SMS</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">10B</td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">SG</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix"></td>
+    <td class="tg-7zrl">10B</td>
+    <td class="tg-nrix"></td>
+    <td class="tg-7zrl">SMS</td>
+    <td class="tg-7zrl">GS</td>
+    <td class="tg-7zrl">UMD</td>
+    <td class="tg-7zrl">SG</td>
+    <td class="tg-nrix"></td>
+  </tr>
+</tbody>
+</table>
+
+</div>
+
+<h1 className="main-heading">The Government Primary School, Rajanakunte</h1>
+<div className="timetable-section">
+  
+  <img src={primary} alt="timetable" />
+</div>
+    </>
+  )
+}
+
+export default Timetable
