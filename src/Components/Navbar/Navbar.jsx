@@ -109,7 +109,6 @@ const Navbar = () => {
     <div class = "info-nav">
     <div class="info-1">
         <ul>
-            <li> <a href="hindi"> <SiGoogletranslate /> translator </a> </li>
             <li> <a href="email"> <IoMailOutline /> pucollege.com </a> </li>
             <li> <FaPhone /> 9634236706   </li>
         </ul>
@@ -117,8 +116,8 @@ const Navbar = () => {
 
     <div class="info-2">
         <ul>
-            <li> <a href="NIRF"> NIRF </a> </li>
-            <li> <Link to="/contact"> HELP </Link> </li>
+            <li> <a href="NIRF"> Gallery </a> </li>
+            <li> <Link to="/contact"> Help </Link> </li>
             <li> <button class = "support"> Support PU COLLEGE </button>  </li>
         </ul>
     </div>
