@@ -64,71 +64,71 @@ const Facilities = () => {
   <div class= "sub-container"> <h1 class ="sub-heading"> COMPUTER LAB </h1> </div>
      
    <div class = "facilities-image">
-        <img src={cslab1} alt="lab"/>
-        <img src={Cslab2} alt="lab"/>
-        <img src={Cslab3} alt="lab"/>
+        <img src={cslab1} alt="lab" data-aos="zoom-in" data-aos-duration="1000"/>
+        <img src={Cslab2} alt="lab" data-aos="zoom-in" data-aos-duration="1000"/>
+        <img src={Cslab3} alt="lab" data-aos="zoom-in" data-aos-duration="1000"/>
    </div>
 
   
 
    <div class= "sub-container"> <h1 class ="sub-heading"> PHYSICS LAB </h1>  </div>
    <div class = "facilities-image">
-        <img src={Phylab1} alt="lab"/>
-        <img src={Phylab2} alt="lab"/>
-        <img src={Phylab3} alt="lab"/>
+        <img src={Phylab1} alt="lab" data-aos="zoom-in" data-aos-duration="1000"/>
+        <img src={Phylab2} alt="lab" data-aos="zoom-in" data-aos-duration="1000"/>
+        <img src={Phylab3} alt="lab" data-aos="zoom-in" data-aos-duration="1000"/>
    </div>
 
  
    <div class= "sub-container"><h1 class ="sub-heading">CHEMISTRY LAB </h1>  </div>
    <div class = "facilities-image">
-        <img src={Chemlab1} alt="lab"/>
-        <img src={Chemlab2} alt="lab"/>
-        <img src={Chemlab3} alt="lab"/>
+        <img src={Chemlab1} alt="lab" data-aos="zoom-in" data-aos-duration="1000"/>
+        <img src={Chemlab2} alt="lab" data-aos="zoom-in" data-aos-duration="1000"/>
+        <img src={Chemlab3} alt="lab" data-aos="zoom-in" data-aos-duration="1000"/>
    </div>
 
    <div class= "sub-container"><h1 class = "sub-heading"> SMART CLASSES  </h1> </div>
   <div class = "facilities-image">
-       <img src={Smartclass1} alt="meal"/>
-       <img src={Smartclass2} alt="meal"/>
-       <img src={Smartclass3} alt="meal"/>
+       <img src={Smartclass1} alt="meal" data-aos="zoom-in" data-aos-duration="1000"/>
+       <img src={Smartclass2} alt="meal" data-aos="zoom-in" data-aos-duration="1000"/>
+       <img src={Smartclass3} alt="meal" data-aos="zoom-in" data-aos-duration="1000"/>
   </div>
 
    <div class= "sub-container"> <h1 class = "sub-heading"> SCHOOL MEAL  </h1> </div>
    <div class = "facilities-image">
-        <img src={Meal1} alt="meal"/>
-        <img src={Meal2} alt="meal"/>
-        <img src={Meal3} alt="meal"/>
+        <img src={Meal1} alt="meal" data-aos="zoom-in" data-aos-duration="1000"/>
+        <img src={Meal2} alt="meal" data-aos="zoom-in" data-aos-duration="1000"/>
+        <img src={Meal3} alt="meal" data-aos="zoom-in" data-aos-duration="1000"/>
    </div>/
 
 
   <div class= "sub-container"> <h1 class = "sub-heading"> BADMINTON COURT </h1> </div>
    <div class = "facilities-image">
-        <img src={Court1} alt="court"/>
-        <img src={Court2} alt="court"/>
-        <img src={Court3} alt="court"/>
+        <img src={Court1} alt="court" data-aos="zoom-in" data-aos-duration="1000"/>
+        <img src={Court2} alt="court" data-aos="zoom-in" data-aos-duration="1000"/>
+        <img src={Court3} alt="court" data-aos="zoom-in" data-aos-duration="1000"/>
    </div>
 
 
   <div class= "sub-container"><h1 class = "sub-heading"> SWIMMING POOL  </h1> </div>
   <div class = "facilities-image">
-       <img src={Pool1} alt="pool"/>
-       <img src={Pool2} alt="pool"/>
-       <img src={Pool3} alt="pool"/>
+       <img src={Pool1} alt="pool" data-aos="zoom-in" data-aos-duration="1000"/>
+       <img src={Pool2} alt="pool" data-aos="zoom-in" data-aos-duration="1000"/>
+       <img src={Pool3} alt="pool" data-aos="zoom-in" data-aos-duration="1000"/>
   </div>
 
   <div class= "sub-container"> <h1 class = "sub-heading"> AUDITORIUM  </h1> </div>
   <div class = "facilities-image">
-       <img src={Auditorium1} alt="auditorium"/>
-       <img src={Auditorium2} alt="auditorium"/>
-       <img src={Auditorium3} alt="auditorium"/>
+       <img src={Auditorium1} alt="auditorium" data-aos="zoom-in" data-aos-duration="1000"/>
+       <img src={Auditorium2} alt="auditorium" data-aos="zoom-in" data-aos-duration="1000"/>
+       <img src={Auditorium3} alt="auditorium" data-aos="zoom-in" data-aos-duration="1000"/>
   </div>
 
 
   <div class= "sub-container"> <h1 class = "sub-heading"> GROUND </h1> </div> 
   <div class = "facilities-image">
-       <img src={Ground1} alt="ground"/>
-       <img src={Ground2} alt="ground"/>
-       <img src={Ground3} alt="ground"/>
+       <img src={Ground1} alt="ground" data-aos="zoom-in" data-aos-duration="1000"/>
+       <img src={Ground2} alt="ground" data-aos="zoom-in" data-aos-duration="1000"/>
+       <img src={Ground3} alt="ground" data-aos="zoom-in" data-aos-duration="1000"/>
    </div>
 
    </div>

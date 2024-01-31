@@ -134,8 +134,8 @@ const Navbar = () => {
           <div className="name-text">
             <p> Government Institution, RajanaKunte </p>
             <p> सरकारी संस्थान, राजानुकुंते
- </p>
-            <p> ಸರ್ಕಾರಿ ಸಂಸ್ಥೆ, ರಾಜಕುಂಟೆ </p>
+          </p>
+            <p> ಸರ್ಕಾರಿ ಸಂಸ್ಥೆ, ರಾಜನಕುಂಟೆ </p>
           </div>
           {isOpen ? '' : <IoMenu className="menu-icon" onClick={toggleNavbar} fontSize={50}/>}
          

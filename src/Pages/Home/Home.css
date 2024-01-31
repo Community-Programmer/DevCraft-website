@@ -113,7 +113,7 @@
     margin: 50px auto;
   }
   
-  video {
+.video-container  video {
     width: 100%;
     height: auto;
     display: block;
