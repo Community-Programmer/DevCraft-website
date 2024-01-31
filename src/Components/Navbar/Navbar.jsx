@@ -78,30 +78,6 @@ const Navbar = () => {
   }, []);
 
 
-  // useEffect(() => {
-  //   window.onscroll = function() {
-  //     myFunction();
-  //   };
-  
-  //   var navbar = document.getElementById("navbar");
-  //   var sticky = navbar.offsetTop;
-  
-  //   function myFunction() {
-  //     var navHeadline = document.querySelector('.nav-headline');
-  
-  //     if (navHeadline) {
-  //       if (window.scrollY >= sticky) {
-  //         navbar.classList.add("sticky");
-  //         navHeadline.classList.add('content');
-  //       } else {
-  //         navbar.classList.remove("sticky");
-  //         navHeadline.classList.remove('content');
-  //       }
-  //     }
-  //   }
-  // }, []);
-   
-  
 
   return (
     <>

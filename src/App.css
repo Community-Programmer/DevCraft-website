@@ -29,6 +29,11 @@ body{
 }
 
 
+/* Scroll to top */
+.scroll-to-top{
+  background-color: #445c8a !important;
+}
+
 
 .main-heading{
   text-align: center;

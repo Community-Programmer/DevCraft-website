@@ -27,6 +27,7 @@ import HighSchool from "./Pages/Department/High School/HighSchool";
 import Primaryschool from "./Pages/Department/Primary School/Primaryschool";
 import Science from "./Pages/Department/PU College/Science/Science";
 import Commerce from "./Pages/Department/PU College/Commerce/Commerce";
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -79,9 +80,12 @@ function App() {
           </Route>
         </Routes>
         <Footer/>
+        
+      <ScrollToTop smooth  color="#fff"/>
         </>
       )}
     </>
+    
     </>
   );
 }
