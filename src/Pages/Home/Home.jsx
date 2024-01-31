@@ -15,6 +15,7 @@ import eventData from "../../Data/Event";
 import CountUp from 'react-countup';
 
 import video from '../../Assets/Home Video/video.mp4'
+import ScrollToTop from "react-scroll-to-top";
 
 const Home = () => {
 
@@ -217,6 +218,7 @@ const Home = () => {
     
   </div>
       </div>
+      <ScrollToTop smooth />
     </>
   );
 };
