@@ -18,12 +18,6 @@ const HighSchool = () => {
             faculty, and a myriad of extracurricular activities that contribute
             to the holistic development of students. We strive to empower the leaders of 
             tomorrow through a blend of academic rigor and character-building experiences.
-
-
-
-
-
-
           </p>
         </div>
       </div>

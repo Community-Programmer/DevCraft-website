@@ -1,8 +1,7 @@
-body{
+body {
   margin: 0;
   padding: 0;
 }
-
 
 /* Override some react Slick style */
 
@@ -16,68 +15,94 @@ body{
   z-index: 1;
 }
 
-.slick-prev::before{
+.slick-prev::before {
   color: #fff !important;
   font-weight: bold;
   font-size: 30px !important;
 }
 
-.slick-next::before{
+.slick-next::before {
   color: #fff !important;
   font-weight: bold;
   font-size: 30px !important;
 }
-
 
 /* Scroll to top */
-.scroll-to-top{
+.scroll-to-top {
   background-color: #445c8a !important;
 }
 
-
-.main-heading{
+.main-heading {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.center-text{
+/* Box Main Heading  */
+
+.box-heading {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+}
+
+.box-heading img {
+  width: 40%;
+}
+
+.box-heading div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #192f59;
+  width: 50%;
+  padding: 2rem;
+}
+
+.box-heading div h1 {
+  color: #fff;
+}
+
+.box-heading div p {
+  color: #fff;
+  line-height: 1.5rem;
+}
+
+.center-text {
   text-align: center;
 }
 
-.btn{
+.btn {
   font-size: 1rem;
-  border: 1px solid #192F59;
+  border: 1px solid #192f59;
   border-radius: 0.5rem;
   background-color: #213a68;
   padding: 10px 15px;
   margin: 1.5rem;
   cursor: pointer;
   color: #fff;
-  
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #375283;
   color: white;
 }
 
-.wrap-container{
+.wrap-container {
   /* border: 2px solid; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .wrap-container h1{
-    width: 80%;
-  }
-  
-  
-  .wrap-container .btn{
-    background-color: #EC3030;
-    color: #fff;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap-container h1 {
+  width: 80%;
+}
+
+.wrap-container .btn {
+  background-color: #ec3030;
+  color: #fff;
+}
+
 /* Global Css For Tables */
 
 .tg {
@@ -86,7 +111,8 @@ body{
   width: 100%;
 }
 
-.tg td, .tg th {
+.tg td,
+.tg th {
   border-color: black;
   border-style: solid;
   border-width: 1px;
@@ -111,9 +137,70 @@ body{
   vertical-align: bottom;
 }
 
+
+/* Text Container -> Used in pages like Academics, Admission, department etc. */
+
+
+.text-container {
+  width: 70%;
+  margin: auto;
+  padding: 1rem;
+
+}
+
+.text-container h2 {
+   border-bottom: 2px solid rgb(122, 116, 116);
+   font-family:"lato";
+   font-size: 40px;
+
+}
+
+.text-container h3 {
+   font-size: 30px;
+   color:#192F59;
+}
+
+.text-container p{
+   line-height: 1.5rem;
+   font-size:large;
+}
+
+
+
 /* Responsive styles using media queries */
 @media (max-width: 600px) {
-  .tg td, .tg th {
+  .tg td,
+  .tg th {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .box-heading {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .box-heading div h1 {
+    font-size: 1.6rem;
+  }
+
+  .box-heading img {
+    width: 100%;
+  }
+
+  .box-heading div {
+    width: 100%;
+    padding: 0rem;
+  }
+
+  .box-heading div p {
+    padding: 0rem 1rem 1rem 1rem;
+  }
+
+  .text-container {
+    width: 90%;
+    padding: 0;
   }
 }

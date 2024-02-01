@@ -54,6 +54,13 @@
     font-family: "inter";
 }
 
+.footer-bottom{
+    background-color: #192F59;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
 @media only screen and (max-width: 768px) {
 
     .footer-container{
