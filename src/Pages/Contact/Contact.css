@@ -1,6 +1,5 @@
 .contact-section{
     display: flex;
-    margin: 1rem;
 }
 
 .contact-section i{
@@ -26,18 +25,30 @@
 
 .contact-upper{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .contact-down{
     display: flex;
-    justify-content: space-around;
-}
-.contact-down div{
-    line-height: 1rem;
+    justify-content: center;
 }
 
-@media only screen and (max-width: 468px) {
+.contact-down div, .contact-upper div{
+    line-height: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .contact-information{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        width: 50%;
+    }
 
     .contact-section{
         flex-direction: column-reverse;
@@ -50,5 +61,14 @@
     .contact-section iframe{
         width: 100%;
     
+    }
+
+    .contact-upper{
+        flex-wrap: wrap;
+    }
+    
+    .contact-down{
+        flex-wrap: wrap;
+        align-items: center;
     }
 }

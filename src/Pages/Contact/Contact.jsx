@@ -4,11 +4,14 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <>
+    <div className="heading">
       <h1 className="main-heading">Contact us</h1>
-      <p className="center-text">
+      <span >
         Have questions or need assistance? Connect with us! Our team is here to
         support you in every step of your educational journey
-      </p>
+      </span>
+    </div>
+    
       <div className="contact-section">
         <iframe
           src="https://www.google.com/maps/embed/v1/place?q=5HF5+++FMP,+Unnamed+Road,+Rajanukunte,+Bangalore,+Karnataka+560064&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"

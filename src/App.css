@@ -67,8 +67,9 @@ body {
   line-height: 1.5rem;
 }
 
-.center-text {
+.heading {
   text-align: center;
+  padding: 1rem;
 }
 
 .btn {

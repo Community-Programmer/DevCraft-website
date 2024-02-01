@@ -34,8 +34,7 @@
   box-shadow: 5px 5px 10px gray;
 }
 
-.info-text h4,
-p {
+.info-text h4, .info-text p {
   margin: 0;
 }
 
