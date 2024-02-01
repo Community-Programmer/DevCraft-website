@@ -13,6 +13,10 @@ import Chemlab1 from '../../Assets/Facilities/Chemlab1.jpeg'
 import Chemlab2 from '../../Assets/Facilities/Chemlab2.jpg'
 import Chemlab3 from '../../Assets/Facilities/Chemlab3.jpg'
 
+import biolab1 from '../../Assets/Facilities/biolab1.jpg'
+import biolab2 from '../../Assets/Facilities/biolab2.jpeg'
+import biolab3 from '../../Assets/Facilities/biolab3.jpeg'
+
 import Smartclass1 from '../../Assets/Facilities/SmartClass1.jpg'
 import Smartclass2 from '../../Assets/Facilities/SmartClass2.jpg'
 import Smartclass3 from '../../Assets/Facilities/SmartClass3.jpeg'
@@ -50,9 +54,9 @@ const Facilities = () => {
     <div class = "feature">
         <ul>
             <li> The medium of instruction is English/Kannada. </li>
-            <li> Our schools use latest technology for effective teaching, learning such as LCD, HOP, Computer and Internet/wi-fi facility. </li>
-            <li> Students are motivated to take part in all types of games, yoga and co-curricular activities.</li>
-            <li> The schools have well equipped laboratories for Physics, Chemistry, Biology and Computer Science with internet connectivity. </li>
+            <li> Our schools use latest technology for effective teaching, learning such as LCD, Computer facility. </li>
+            <li> Students are motivated to take part in all types of games, and co-curricular activities.</li>
+            <li> The schools have well equipped laboratories for Physics, Chemistry, Biology and Computer Science. </li>
             <li> Sports and game facilities. Spacious play ground for out door activities. </li>
             <li> Celebration of National festivals and other important days in order to develop a feeling of "INDIANNESS". </li>
             <li> Active participation of students in scholastic and co-scholastic activities. </li>
@@ -86,6 +90,12 @@ const Facilities = () => {
         <img src={Chemlab3} alt="lab" data-aos="zoom-in" data-aos-duration="1000"/>
    </div>
 
+   <div class= "sub-container"><h1 class ="sub-heading"> BIOLOGY LAB </h1>  </div>
+   <div class = "facilities-image">
+        <img src={biolab1} alt="lab" data-aos="zoom-in" data-aos-duration="1000"/>
+        <img src={biolab2} alt="lab" data-aos="zoom-in" data-aos-duration="1000"/>
+        <img src={biolab3} alt="lab" data-aos="zoom-in" data-aos-duration="1000"/>
+   </div>
    <div class= "sub-container"><h1 class = "sub-heading"> SMART CLASSES  </h1> </div>
   <div class = "facilities-image">
        <img src={Smartclass1} alt="meal" data-aos="zoom-in" data-aos-duration="1000"/>
