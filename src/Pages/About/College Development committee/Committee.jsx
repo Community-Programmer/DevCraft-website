@@ -12,14 +12,14 @@ const Committee = () => {
       <div className="box-heading">
         <img src={overview} alt="scholarship" />
         <div>
-          <h1 className="main-heading"> College Development Committe </h1>
+          <h1 className="main-heading"> College Development Committee </h1>
           <p>
-            Welcome to our College Development committee Page! Committed to 
+            Welcome to our College Development Committee page! Committed to 
             advancing academic excellence and infrastructure enhancements,
             our committee stands as a beacon of strategic planning and vision.
             This page serves as a gateway to understanding the collaborative 
             efforts, initiatives, and transformative projects that propel the
-            institution towards continual growth and excellence. 
+            institution towards continual growth and excellence
           </p>
         </div>
       </div>
