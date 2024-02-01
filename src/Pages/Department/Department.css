@@ -40,7 +40,6 @@
 }
 
 .faculties-card-container .committee-card img{
-    /* height: 30vh; */
     aspect-ratio: 10/10;
     object-fit: contain;
 }

@@ -41,3 +41,11 @@
     width: 450px;
     object-fit: cover;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .gallery-image img {
+        height: 300px;
+    }
+
+}
