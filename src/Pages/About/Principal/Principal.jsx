@@ -21,14 +21,14 @@ const Principal = () => {
               innovation, and ensuring the development of every
               student. Join us in celebrating the leadership that shapes 
               the educational journey at Rajanakunte, where  inspires
-              students towards a future of success and accomplishment."
+              students towards a future of success and accomplishment
           </p>
         </div>
       </div>
 
       <div className="committee-section">
         <div>
-          <h1 className="main-heading">Incharge Principal Of PU college</h1>
+          <h1 className="main-heading"> Incharge Principal Of PU college </h1>
           <div className="committee-card">
             <img src={Principal1} alt="principal" />
             <div className="profile-info">

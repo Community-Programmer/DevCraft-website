@@ -12,12 +12,12 @@ const Commerce = () => {
         <div>
           <h1 className="main-heading">Commerce</h1>
           <p>
-            Welcome to our Commerce Department  Page! Our commitment to
+            Welcome to our Commerce Department page! Our commitment to
             academic excellence, coupled with experienced faculty, creates
             an environment that nurtures financial acumen and entrepreneurial
             spirit. Join us as we delve into the realms of economics, accounting,
             and business studies, equipping students with the skills and knowledge
-            for a successful and thriving future in the dynamic world of commerce.
+            for a successful and thriving future in the dynamic world of commerce
           </p>
         </div>
       </div>

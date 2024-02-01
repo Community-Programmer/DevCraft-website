@@ -14,12 +14,12 @@ const Member = () => {
         <div>
           <h1 className="main-heading"> Board of Members </h1>
           <p>
-            Welcome to our Boards of member Page! It provides insight into 
+            Welcome to our Boards of Member page! It provides insight into 
             the dynamic personalities and diverse expertise of our board
-             members, showcasing their unwavering dedication to fostering
-              an environment of learning, inclusivity, and progress. Join 
-              us in acknowledging and appreciating the leadership that
-               propels our institution toward new heights of success and distinction.
+            members, showcasing their unwavering dedication to fostering
+            an environment of learning, inclusivity, and progress. Join 
+            us in acknowledging and appreciating the leadership that
+            propels our institution toward new heights of success and distinction
           </p>
         </div>
       </div>
