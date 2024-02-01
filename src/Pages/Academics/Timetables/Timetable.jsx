@@ -19,7 +19,7 @@ const Timetable = () => {
             Welcome to our Time table page of Government Institution, RajanaKunte. Here, we invite you to
             explore meticulously crafted to harmonize learning and work activities, it stands as a guide for
             individuals seeking balance, productivity, and success in their daily endeavors within the institution's
-            vibrant academic and professional landscape."
+            vibrant academic and professional landscape
           </p>
         </div>
       </div>
