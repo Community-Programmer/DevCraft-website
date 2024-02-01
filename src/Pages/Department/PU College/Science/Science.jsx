@@ -17,7 +17,7 @@ const Science = () => {
             scientific curiosity, we invite you to explore the boundless
             realms of biology, chemistry, and physics. Unleash your potential
             and embark on a transformative academic journey where inquiry, 
-            experimentation, and the pursuit of knowledge converge for a future of scientific excellence.
+            experimentation, and the pursuit of knowledge converge for a future of scientific excellence
           
           </p>
         </div>

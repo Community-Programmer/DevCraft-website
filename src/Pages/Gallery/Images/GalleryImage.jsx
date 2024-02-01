@@ -44,7 +44,7 @@ const GalleryImage = () => {
       };
   return (
     <>
-    <h1 className="main-heading">Gallery</h1>
+    <h1 className="main-heading"> Gallery Vault </h1>
     <div className="gallery-slideshow">
         <Slider {...settings}>
           {images.map((image, index) => (
@@ -55,7 +55,7 @@ const GalleryImage = () => {
         </Slider>
       </div>
 
-      <h1 className="main-heading">Some Events</h1>
+      <h1 className="main-heading"> More Images </h1>
 
       <div class="gallery">
       {displayimages.map((image, index) => (

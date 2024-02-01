@@ -17,7 +17,7 @@ const Arts = () => {
               for the complexities of human experience. Join us in exploring
               the vast landscapes of knowledge, where critical thinking and
               a passion for the humanities converge to shape well-rounded 
-              individuals poised for intellectual excellence.
+              individuals poised for intellectual excellence
           </p>
         </div>
       </div>
