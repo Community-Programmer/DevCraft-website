@@ -12,11 +12,12 @@ const Commerce = () => {
         <div>
           <h1 className="main-heading">Commerce</h1>
           <p>
-            Welcome to our Admission Page! Explore exciting opportunities and
-            embark on a journey of academic excellence. Discover the key to
-            unlocking your potential and join a community dedicated to fostering
-            growth, knowledge, and success. Your educational adventure begins
-            here!
+            Welcome to our Commerce Department  Page! Our commitment to
+            academic excellence, coupled with experienced faculty, creates
+            an environment that nurtures financial acumen and entrepreneurial
+            spirit. Join us as we delve into the realms of economics, accounting,
+            and business studies, equipping students with the skills and knowledge
+            for a successful and thriving future in the dynamic world of commerce.
           </p>
         </div>
       </div>

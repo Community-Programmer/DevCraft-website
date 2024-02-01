@@ -11,11 +11,13 @@ const Arts = () => {
         <div>
           <h1 className="main-heading">Arts</h1>
           <p>
-            Welcome to our Admission Page! Explore exciting opportunities and
-            embark on a journey of academic excellence. Discover the key to
-            unlocking your potential and join a community dedicated to fostering
-            growth, knowledge, and success. Your educational adventure begins
-            here!
+              Welcome to the Arts Department page! Our Arts Department
+              delves into the rich tapestry of subjects such as history,
+              literature, fostering a deep appreciation
+              for the complexities of human experience. Join us in exploring
+              the vast landscapes of knowledge, where critical thinking and
+              a passion for the humanities converge to shape well-rounded 
+              individuals poised for intellectual excellence.
           </p>
         </div>
       </div>

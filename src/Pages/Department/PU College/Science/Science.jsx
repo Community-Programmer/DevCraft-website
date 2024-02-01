@@ -12,11 +12,13 @@ const Science = () => {
         <div>
           <h1 className="main-heading">Science</h1>
           <p>
-            Welcome to our Admission Page! Explore exciting opportunities and
-            embark on a journey of academic excellence. Discover the key to
-            unlocking your potential and join a community dedicated to fostering
-            growth, knowledge, and success. Your educational adventure begins
-            here!
+            Welcome to our Science Department Page! With cutting-edge 
+            laboratories, dedicated faculty, and a commitment to fostering
+            scientific curiosity, we invite you to explore the boundless
+            realms of biology, chemistry, and physics. Unleash your potential
+            and embark on a transformative academic journey where inquiry, 
+            experimentation, and the pursuit of knowledge converge for a future of scientific excellence.
+          
           </p>
         </div>
       </div>
