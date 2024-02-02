@@ -5,7 +5,8 @@ import overview from "../../../Assets/Academic Page/Overview.jpg";
 
 // Downloadable Content
 
-import FeePdf from "../../../Downloads/Fee.pdf";
+import FeePdf from "../../../Downloads/CollegeFee.pdf";
+import FeePdf1 from '../../../Downloads/Fee.pdf'
 import { Link } from "react-router-dom";
 
 const Fee = () => {
@@ -16,18 +17,23 @@ const Fee = () => {
         <div>
           <h1 className="main-heading">Fee Structure</h1>
           <p>
-            Welcome to our fee structure page of Government Institution,
-            RajanaKunte.This guide provides valuable insights into the 
-            financial aspects, ensuring clarity and accessibility for 
-            prospective students. Here is a comprehensive overview to 
-            empower your journey towards academic excellence within the 
-            institution's affordable and student-friendly framework.
+            Welcome to our Fee structure page of Government Institution,
+            RajanaKunte.This guide provides valuable insights into the financial
+            aspects, ensuring clarity and accessibility for prospective
+            students. Here is a comprehensive overview to empower your journey
+            towards academic excellence within the institution's affordable and
+            student-friendly framework
           </p>
         </div>
       </div>
       <div className="wrap-container">
         <h1 className="main-heading">The Government PU college, Rajanakunte</h1>
-        <Link to={FeePdf} download="Fee" target="_blank" rel="noreferrer">
+        <Link
+          to={FeePdf}
+          download="CollegeFee"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button className="btn">Download Pdf</button>
         </Link>
       </div>
@@ -300,10 +306,20 @@ const Fee = () => {
           </tbody>
         </table>
       </div>
+      <div className="wrap-container">
+        <h1 className="main-heading">
+          The Government Primary And HighSchool, Rajanakunte
+        </h1>
+        <Link
+          to={FeePdf1}
+          download="Fee"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="btn">Download Pdf</button>
+        </Link>
+      </div>
 
-      <h1 className="main-heading">
-        The Government Primary And HighSchool, Rajanakunte
-      </h1>
       <div className="fee-section">
         <img src={feeImg} alt="fee" />
       </div>

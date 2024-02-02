@@ -27,4 +27,25 @@
     border-radius: 8px;
 }
 
+.video-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1rem;
+   
+}
 
+.video-section video{
+    width: 450px;
+    object-fit: cover;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .gallery-image img {
+        height: 300px;
+    }
+
+}

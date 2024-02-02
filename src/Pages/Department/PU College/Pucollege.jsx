@@ -21,13 +21,12 @@ const Pucollege = () => {
      <div className="box-heading">
         <img src={overview} alt="scholarship" />
         <div>
-          <h1 className="main-heading">College Departments</h1>
+          <h1 className="main-heading"> PU College </h1>
           <p>
-            Welcome to our Admission Page! Explore exciting opportunities and
-            embark on a journey of academic excellence. Discover the key to
-            unlocking your potential and join a community dedicated to fostering
-            growth, knowledge, and success. Your educational adventure begins
-            here!
+            Welcome to our PU college department page! Dive into the diverse realms of knowledge
+            as we introduce the dynamic academic landscape of the Government Institution
+            in Rajanakunte. With a commitment to holistic education, the institution proudly
+            houses vibrant departments in Arts, Commerce, and Science
           </p>
         </div>
       </div>

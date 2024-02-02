@@ -17,6 +17,10 @@
     color:white;
 }
 
+.about-school{
+    line-height: 2rem;
+}
+
 .about-school p {
     color: white;
 
@@ -48,6 +52,13 @@
     text-decoration: none;
     color:white;
     font-family: "inter";
+}
+
+.footer-bottom{
+    background-color: #0f1f3d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
 }
 
 @media only screen and (max-width: 768px) {

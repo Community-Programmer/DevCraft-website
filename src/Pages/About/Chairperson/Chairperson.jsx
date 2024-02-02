@@ -11,11 +11,12 @@ const Chairperson = () => {
         <div>
           <h1 className="main-heading">Chairperson</h1>
           <p>
-            Welcome to our Admission Page! Explore exciting opportunities and
-            embark on a journey of academic excellence. Discover the key to
-            unlocking your potential and join a community dedicated to fostering
-            growth, knowledge, and success. Your educational adventure begins
-            here!
+            Welcome to the Chairperson Page!  This page is a testament
+            to Shri S R Vishwanath's unwavering commitment, expertise,
+            and passion for fostering an environment of innovation, 
+            inclusivity, and progress. Join us in celebrating the leadership
+            that shapes the future of education at Rajanakunte, setting the 
+            course for a transformative and enriching educational experience for all
           </p>
         </div>
       </div>

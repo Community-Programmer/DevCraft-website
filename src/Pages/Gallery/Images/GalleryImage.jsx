@@ -19,7 +19,7 @@ const GalleryImage = () => {
 
   const displayImageContext = require.context('../../../Assets/Gallery/Images/displayImg', false, /\.(png|jpe?g|svg)$/);
   const displayimages = displayImageContext.keys().map(displayImageContext);
-  console.log(displayimages)
+
 
     const settings = {
         dots: false,
@@ -34,17 +34,18 @@ const GalleryImage = () => {
         responsive: [
          
           {
-            breakpoint: 468,
+            breakpoint: 768,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
+              autoplaySpeed: 3000
             }
           }
         ]
       };
   return (
     <>
-    <h1 className="main-heading">Gallery</h1>
+    <h1 className="main-heading"> Gallery Vault </h1>
     <div className="gallery-slideshow">
         <Slider {...settings}>
           {images.map((image, index) => (
@@ -55,12 +56,12 @@ const GalleryImage = () => {
         </Slider>
       </div>
 
-      <h1 className="main-heading">Some Events</h1>
+      <h1 className="main-heading"> More Images </h1>
 
       <div class="gallery">
       {displayimages.map((image, index) => (
             <div key={index} className="gallery-image" data-aos="zoom-in" data-aos-delay="1000">
-              <LazyImage src={image} alt="slideshow" />
+              <LazyImage src={image} alt="gallery" />
             </div>
           ))}   
     </div>

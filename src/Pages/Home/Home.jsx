@@ -95,7 +95,7 @@ const Home = () => {
 
       <div className="home-section-card-container">
         <div className="info-card" data-aos="zoom-in" data-aos-duration="1000">
-          <LuSchool fontSize={60} />
+          <LuSchool fontSize={60} color="#192f59" />
           <div className="info-text">
             <h4>Campus</h4>
             <p>To Nurture Greatness</p>
@@ -103,7 +103,7 @@ const Home = () => {
         </div>
 
         <div className="info-card" data-aos="zoom-in" data-aos-duration="1000">
-          <GiMaterialsScience fontSize={60} />
+          <GiMaterialsScience fontSize={60} color="#192f59"/>
           <div className="info-text">
             <h4>Innovation</h4>
             <p>To develop future</p>
@@ -111,7 +111,7 @@ const Home = () => {
         </div>
 
         <div className="info-card" data-aos="zoom-in" data-aos-duration="1000">
-          <FaComputer fontSize={60} />
+          <FaComputer fontSize={60} color="#192f59"/>
           <div className="info-text">
             <h4>Facilities</h4>
             <p>Dynamic hub</p>
@@ -119,7 +119,7 @@ const Home = () => {
         </div>
 
         <div className="info-card" data-aos="zoom-in" data-aos-duration="1000">
-          <HiOutlineAcademicCap fontSize={60} />
+          <HiOutlineAcademicCap fontSize={60} color="#192f59"/>
           <div className="info-text">
             <h4>Academics</h4>
             <p>Leading the pack</p>
@@ -189,8 +189,8 @@ const Home = () => {
           experience the magic of learning in a vibrant community
         </span>
 
+        {/*Event Data */}
         <div className="home-card-container">
-          
           {eventData.slice(0,3).map((data, index)=>{
             return (<div key={index} className="home-card" data-aos="flip-left" data-aos-duration="1000">
                 <img src={data.image} alt="event" />

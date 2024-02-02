@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 2rem;
     padding: 1rem;
     
 }
@@ -38,12 +38,34 @@
 .faculties-card-container .committee-card{
     width: 40%;
 }
-/* 
-.faculties-card-container .committee-card img{
-    object-fit: contain;
-} */
 
-@media only screen and (max-width: 768px) {
+.faculties-card-container .committee-card img{
+    aspect-ratio: 10/10;
+    object-fit: contain;
+}
+
+/* Tablets */
+
+@media only screen and (max-width: 768px) and (min-width: 468px) {
+    .faculties-card-container .committee-card{
+        width: 60%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faculties-card-container .committee-card img{
+        width: 80%;
+    }
+
+    .course-card{
+        width: 60%;
+    }
+
+}
+
+/* Mobile Devices */
+
+@media only screen and (max-width: 468px) {
     .faculties-card-container .committee-card{
         width: 100%;
         flex-direction: column;
@@ -51,11 +73,11 @@
     }
 
     .faculties-card-container .committee-card img{
-        width: 90%;
+        width: 80%;
     }
 
     .course-card{
-        width: 50%;
+        width: 90%;
     }
 
 }
