@@ -29,45 +29,40 @@
 
 .committee-section .committee-card{
     width: 45%;
+
 }
 
-
-
-/* Vision mission css  */
-
+/* vision and mission css */
 .vision-container {
     padding:2.5rem 0 2.5rem 0;
+  
+  }
 
-};
-
-hr{
+  hr{
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #d9d9d9;
     margin: 1em 0;
     padding: 0;
-};
+  }
+  .vision{
+    padding-bottom: 20px;
+  }
 
-.vm {
-    text-align:justify;
-};
-
-.vision p {
+  .vm-heading{
+    padding-left:2rem;
+  }
+  
+  
+  .vision-container div  p {
     line-height: 2.4rem;
-    padding-left: 18px;
+    padding-left: 2rem;
     font-weight:500;
     font-size:large;
-
-};
-
-.mission p {
-    line-height: 4rem;
-    padding-left: 18px;
-    font-weight:500;
-    font-size:large;
-
-};
+  
+  };
+  
 
 @media only screen and (max-width: 768px) {
 
