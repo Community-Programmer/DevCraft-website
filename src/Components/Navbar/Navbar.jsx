@@ -84,7 +84,6 @@ const Navbar = () => {
     <div class = "info-nav">
     <div class="info-1">
         <ul>
-            <li> <a href="email"> <IoMailOutline /> pucollege.com </a> </li>
             <li> <FaPhone /> +91 9901773645</li>
         </ul>
     </div>
@@ -93,7 +92,7 @@ const Navbar = () => {
         <ul>
             <li> <Link to="/academic-overview"> Overview </Link> </li>
             <li> <Link to="/contact"> Help </Link> </li>
-            <li className="cta-button"><Link>Vision & Mission </Link></li>
+            <li className="cta-button"><Link>Vision & Mission</Link></li>
         </ul>
     </div>
     
