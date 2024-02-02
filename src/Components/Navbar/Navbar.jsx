@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import "./Navbar.css";
 import logo from "../../Assets/Logo/logo.png";
 import { Link, Outlet } from "react-router-dom";
-import { IoMailOutline } from "react-icons/io5";
 import { FaPhone } from "react-icons/fa6";
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
@@ -81,7 +80,22 @@ const Navbar = () => {
 
   return (
     <>
-    <div class = "info-nav">
+    <div className="top-nav">
+      <div className="info-start">
+        <ul>
+            <li> <FaPhone /> +91 9901773645</li>
+        </ul>
+      </div>
+        <div class="info-end">
+        <ul>
+            <li> <Link to="/academic-overview"> Overview </Link> </li>
+            <li> <Link to="/contact"> Help </Link> </li>
+            <li className="cta-button"><Link to='/vision-mission'>Vision & Mission </Link></li>
+
+        </ul>
+    </div>
+    </div>
+    {/* <div class = "info-nav">
     <div class="info-1">
         <ul>
             <li> <FaPhone /> +91 9901773645</li>
@@ -97,7 +111,7 @@ const Navbar = () => {
         </ul>
     </div>
     
-    </div>
+    </div> */}
 
       <nav id="navbar">
         <div class="nav-container-1">
@@ -169,6 +183,9 @@ const Navbar = () => {
             </li>
             <li>
               <Link to="/contact" onClick={toggleNavbar}> Contact us </Link>
+            </li>
+            <li>
+              <Link to="/vision-mission" onClick={toggleNavbar}> Contact uss </Link>
             </li>
           </ul>
         </div>

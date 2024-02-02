@@ -1,66 +1,28 @@
-.info-nav{
+.top-nav{
     background-color:#192F59;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items:center;
     height: 8vh;
 }
 
-.info-1{
-    width: 50%;
-}
-
-.info-1 ul{
-    display: flex; 
-    align-items:center;
-    justify-content: flex-start;
-    gap: 1.5rem;
+.info-start ul{
     list-style: none;
-    color: #96A2B8;
+    color: white;
 }
 
-
-.info-1 li a{
-    color :#96A2B8;
-    
-    
-}
-
-
-.info-1 a:hover {
-    color:white;
-    transition-duration:1s;
-}
-
-.info-2 {
-    width: 45%;
-}
-
-
-.info-2 ul{
-    display: flex; 
-    align-items:center;
-    justify-content: flex-end;
-    gap: 1.5rem;
+.info-end ul {
     list-style: none;
-    margin-right: 5px;
-   
+    color: white;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
 }
 
-
-.info-2 li a{
-    color :#96A2B8;
-    
-}
-
-.info-2 li img {
-    height: 2.5rem;
-    color: #ffffff;
-}
-
-.info-2 a:hover {
-    color:white;
-    transition-duration:1s;
+.info-end ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
 }
 
 .cta-button {
@@ -68,7 +30,7 @@
     background-color:#3DB166;
     font-size: 15.5px;
     height: 8vh;
-    overflow-wrap: break-word;
+    /* overflow-wrap: break-word; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,7 +40,6 @@
     color: white !important;
     text-decoration: none;
     padding: 0.3rem;
-    flex-wrap: wrap;
     font-weight: bold;
 }
 
@@ -286,16 +247,6 @@
   /* Navbar Responsiveness */
 
 
-  /* For dekstop */
-
-  @media only screen and (max-width: 1074px) and (min-width: 768px) {
-    
-    .nav-links{
-        gap: 0.8rem;
-    }
-
-  }  
-
   @media only screen and (max-width: 768px) {
 
 
@@ -387,13 +338,20 @@
    
   }
 
-  @media only screen and (max-width: 430px){
-    .info-1 ul{
-        padding-left: 0;
+  @media only screen and (max-width: 468px){
+    .top-nav{
+        font-size: 0.8rem;
+    }
+    
+    .info-start ul{
+        padding: 1rem;
+        
     }
 
-    .info-2 ul{
-        gap: 0.8rem;
+    .info-end ul {
+        gap: 0.5rem;
+        padding: 0;
     }
+    
   }
 
