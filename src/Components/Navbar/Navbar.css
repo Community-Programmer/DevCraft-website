@@ -372,5 +372,14 @@
     .dropdown-content li {
         margin-top: 5px;
     }
+
+    .info-1{
+        margin-left: 0;
+    }
+
+    .info-1 ul{
+        padding-left: 0;
+    }
    
   }
+ 
