@@ -18,7 +18,7 @@ const Fee = () => {
           <h1 className="main-heading">Fee Structure</h1>
           <p>
             Welcome to our Fee structure page of Government Institution,
-            RajanaKunte.This guide provides valuable insights into the financial
+            RajanuKunte.This guide provides valuable insights into the financial
             aspects, ensuring clarity and accessibility for prospective
             students. Here is a comprehensive overview to empower your journey
             towards academic excellence within the institution's affordable and
@@ -27,7 +27,7 @@ const Fee = () => {
         </div>
       </div>
       <div className="wrap-container">
-        <h1 className="main-heading">The Government PU college, Rajanakunte</h1>
+        <h1 className="main-heading">The Government PU college, Rajanukunte</h1>
         <Link
           to={FeePdf}
           download="CollegeFee"
@@ -308,7 +308,7 @@ const Fee = () => {
       </div>
       <div className="wrap-container">
         <h1 className="main-heading">
-          The Government Primary And HighSchool, Rajanakunte
+          The Government Primary And HighSchool, Rajanukunte
         </h1>
         <Link
           to={FeePdf1}

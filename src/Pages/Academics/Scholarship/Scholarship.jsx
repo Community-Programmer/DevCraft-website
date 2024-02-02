@@ -9,10 +9,10 @@ const Scholarship = () => {
         <img src={scholarship} alt="scholarship" />
         <div>
           <h1 className="main-heading">
-            Government Institution, RajanaKunte Scholarship Program
+            Government Institution, RajanuKunte Scholarship Program
           </h1>
           <p>
-            Welcome to the Government Institution, RajanaKunte Scholarship
+            Welcome to the Government Institution, RajanuKunte Scholarship
             Program, where we believe in empowering aspiring minds and fostering
             academic excellence. Our commitment to education drives us to
             provide opportunities for outstanding individuals who demonstrate
