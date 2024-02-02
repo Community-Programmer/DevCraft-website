@@ -109,7 +109,7 @@ const Navbar = () => {
           </div>
           <div className="name-text">
             <p> Government Institution, RajanuKunte </p>
-            <p> सरकारी संस्थान, राजनाकुंते
+            <p> सरकारी संस्थान, राजनुकुंते
           </p>
             <p> ಸರ್ಕಾರಿ ಸಂಸ್ಥೆ, ರಾಜನಕುಂಟೆ </p>
           </div>

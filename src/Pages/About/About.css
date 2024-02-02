@@ -31,6 +31,44 @@
     width: 45%;
 }
 
+
+
+/* Vision mission css  */
+
+.vision-container {
+    padding:2.5rem 0 2.5rem 0;
+
+};
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+};
+
+.vm {
+    text-align:justify;
+};
+
+.vision p {
+    line-height: 2.4rem;
+    padding-left: 18px;
+    font-weight:500;
+    font-size:large;
+
+};
+
+.mission p {
+    line-height: 4rem;
+    padding-left: 18px;
+    font-weight:500;
+    font-size:large;
+
+};
+
 @media only screen and (max-width: 768px) {
 
     .committee-section .committee-card{
