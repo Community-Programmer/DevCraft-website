@@ -64,7 +64,7 @@ const Home = () => {
           onMouseOver={pauseScrolling}
           onMouseOut={resumeScrolling}
         >
-          <span>Welcome to Government Institution, RajanaKunte</span>
+          <span>Welcome to Government Institution, RajanuKunte</span>
           <span>
             <Link to='/fee'>Fee structure</Link>
           </span>
@@ -132,9 +132,9 @@ const Home = () => {
         <div className="home-card-container">
           <div className="home-card" data-aos="flip-left" data-aos-duration="1000">
            
-            <h3>The Government PU college, Rajanakunte</h3>
+            <h3>The Government PU college, Rajanukunte</h3>
             <p>
-              The Government PU College, Rajanakunte, Bangalore, Karnataka, has
+              The Government PU College, Rajanukunte, Bangalore, Karnataka, has
               been a part of the educational landscape since 2020. Encompassing
               3.15 acres, it is currently undergoing a transformative project
               supported by Manyata Embassy, with an investment of 4 crores. The
@@ -143,9 +143,9 @@ const Home = () => {
           </div>
 
           <div className="home-card" data-aos="flip-left" data-aos-duration="1000">
-            <h3>The Government High School, Rajanakunte</h3>
+            <h3>The Government High School, Rajanukunte</h3>
             <p>
-              Established in 2009, the Government High School in Rajanakunte,
+              Established in 2009, the Government High School in Rajanukunte,
               Bangalore, Karnataka, sprawls across 4.5 acres. This institution
               provides education for 9th and 10th grades in both Kannada and
               English mediums.
@@ -153,9 +153,9 @@ const Home = () => {
           </div>
 
           <div className="home-card" data-aos="flip-left" data-aos-duration="1000">
-            <h3>The Government Primary School, Rajanakunte</h3>
+            <h3>The Government Primary School, Rajanukunte</h3>
             <p>
-              The Government Primary School in Rajanakunte, Karnataka, traces
+              The Government Primary School in Rajanukunte, Karnataka, traces
               its roots back to 1945. Nestled on a 3-acre expanse, it caters to
               students from Std 1 to 8. The medium of instruction for Std 1-5 is
               Kannada, while for 6th-8th, it extends to both Kannada and

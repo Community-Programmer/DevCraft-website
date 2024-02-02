@@ -25,7 +25,7 @@ const Pucollege = () => {
           <p>
             Welcome to our PU college department page! Dive into the diverse realms of knowledge
             as we introduce the dynamic academic landscape of the Government Institution
-            in Rajanakunte. With a commitment to holistic education, the institution proudly
+            in Rajanukunte. With a commitment to holistic education, the institution proudly
             houses vibrant departments in Arts, Commerce, and Science
           </p>
         </div>

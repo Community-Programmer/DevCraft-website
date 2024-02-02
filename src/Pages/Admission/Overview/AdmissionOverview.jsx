@@ -45,7 +45,7 @@ const AdmissionOverview = () => {
           information.
         </p>
 
-        <h3>The Government PU college, Rajanakunte</h3>
+        <h3>The Government PU college, Rajanukunte</h3>
 
         <p>
           The college offers diverse courses in Arts, Commerce, and Science.
@@ -79,7 +79,7 @@ const AdmissionOverview = () => {
 
         <p>Courses - Science(PCMB/PCMC)  Commerce(HEBA, CEBA) Arts(HEPS) </p>
 
-        <h3>The Government High School, Rajanakunte</h3>
+        <h3>The Government High School, Rajanukunte</h3>
         <p>This institution provides education for 9th and 10th grades in both Kannada and English mediums.</p>
       
         <div className="counter-section">
@@ -101,7 +101,7 @@ const AdmissionOverview = () => {
         </div>
       
 
-        <h3>The Government Primary School, Rajanakunte</h3>
+        <h3>The Government Primary School, Rajanukunte</h3>
         <p>It caters to students from Std 1 to 8. The medium of instruction for Std 1-5 is Kannada, while for 6th-8th, it extends to both Kannada and English.</p>
       
         <div className="counter-section">

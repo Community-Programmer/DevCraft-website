@@ -20,7 +20,7 @@ const Principal = () => {
              to fostering a nurturing learning environment, encouraging
               innovation, and ensuring the development of every
               student. Join us in celebrating the leadership that shapes 
-              the educational journey at Rajanakunte, where  inspires
+              the educational journey at Rajanukunte, where  inspires
               students towards a future of success and accomplishment
           </p>
         </div>

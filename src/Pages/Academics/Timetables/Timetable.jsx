@@ -16,7 +16,7 @@ const Timetable = () => {
         <div>
           <h1 className="main-heading">Timetable</h1>
           <p>
-            Welcome to our Time table page of Government Institution, RajanaKunte. Here, we invite you to
+            Welcome to our Time table page of Government Institution, RajanuKunte. Here, we invite you to
             explore meticulously crafted to harmonize learning and work activities, it stands as a guide for
             individuals seeking balance, productivity, and success in their daily endeavors within the institution's
             vibrant academic and professional landscape
@@ -27,7 +27,7 @@ const Timetable = () => {
 
    
     <div className="wrap-container">
-    <h1 className="main-heading">The Government PU College, Rajanakunte</h1>
+    <h1 className="main-heading">The Government PU College, Rajanukunte</h1>
         <Link
           to={CollegeTimetable}
           download="CollegeTimetable"
@@ -551,7 +551,7 @@ const Timetable = () => {
     </div>
 
     <div className="wrap-container">
-  <h1 className="main-heading">The Government High School, Rajanakunte</h1>
+  <h1 className="main-heading">The Government High School, Rajanukunte</h1>
         <Link
           to={HighSchoolTimetable}
           download="HighSchoolTimetable"
@@ -887,7 +887,7 @@ const Timetable = () => {
 
 
 <div className="wrap-container">
-<h1 className="main-heading">The Government Primary School, Rajanakunte</h1>
+<h1 className="main-heading">The Government Primary School, Rajanukunte</h1>
         <Link
           to={PrimaryTimetable}
           download="PrimaryTimetable"
