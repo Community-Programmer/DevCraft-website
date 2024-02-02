@@ -93,7 +93,7 @@ const Navbar = () => {
         <ul>
             <li> <Link to="/academic-overview"> Overview </Link> </li>
             <li> <Link to="/contact"> Help </Link> </li>
-            <li className="cta-button"><Link>Vision & Mission </Link></li>
+            <li className="cta-button"><Link to='/vision-mission'>Vision & Mission </Link></li>
         </ul>
     </div>
     
