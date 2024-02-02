@@ -85,7 +85,7 @@ const Navbar = () => {
     <div class="info-1">
         <ul>
             <li> <a href="email"> <IoMailOutline /> pucollege.com </a> </li>
-            <li> <FaPhone /> 9634236706   </li>
+            <li> <FaPhone /> +91 9901773645 </li>
         </ul>
     </div>
 
