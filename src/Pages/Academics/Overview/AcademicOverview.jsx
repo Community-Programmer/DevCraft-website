@@ -9,7 +9,7 @@ const AcademicOverview = () => {
         <div>
           <h1 className="main-heading">Academics</h1>
           <p>
-            Welcome to our Academic overview page of Government Institution, RajanaKunte. Here, we invite you to
+            Welcome to our Academic overview page of Government Institution, RajanuKunte. Here, we invite you to
             explore the rich landscape of knowledge and intellectual inquiry
             that defines our academic institution. From the pursuit of
             excellence in education to groundbreaking research endeavors, our

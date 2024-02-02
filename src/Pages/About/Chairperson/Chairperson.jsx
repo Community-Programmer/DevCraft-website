@@ -15,7 +15,7 @@ const Chairperson = () => {
             to Shri S R Vishwanath's unwavering commitment, expertise,
             and passion for fostering an environment of innovation, 
             inclusivity, and progress. Join us in celebrating the leadership
-            that shapes the future of education at Rajanakunte, setting the 
+            that shapes the future of education at Rajanukunte, setting the 
             course for a transformative and enriching educational experience for all
           </p>
         </div>
