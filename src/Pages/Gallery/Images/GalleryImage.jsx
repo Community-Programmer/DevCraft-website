@@ -5,11 +5,18 @@ import "slick-carousel/slick/slick-theme.css";
 import '../Gallery.css'
 import LazyImage from '../../../Components/LazyImage/LazyImage'
 
+import { useState, useCallback } from 'react';
+import ImageViewer from 'react-simple-image-viewer';
+
 
 
 
 
 const GalleryImage = () => {
+
+  
+  const [currentImage, setCurrentImage] = useState(0);
+  const [isViewerOpen, setIsViewerOpen] = useState(false);
 
 
 
@@ -19,6 +26,17 @@ const GalleryImage = () => {
 
   const displayImageContext = require.context('../../../Assets/Gallery/Images/displayImg', false, /\.(png|jpe?g|svg)$/);
   const displayimages = displayImageContext.keys().map(displayImageContext);
+
+
+  const openImageViewer = useCallback((index) => {
+    setCurrentImage(index);
+    setIsViewerOpen(true);
+  }, []);
+
+  const closeImageViewer = () => {
+    setCurrentImage(0);
+    setIsViewerOpen(false);
+  };
 
 
     const settings = {
@@ -61,9 +79,19 @@ const GalleryImage = () => {
       <div class="gallery">
       {displayimages.map((image, index) => (
             <div key={index} className="gallery-image" data-aos="zoom-in" data-aos-delay="1000">
-              <LazyImage src={image} alt="gallery" />
+              <LazyImage src={image} alt="gallery" onClick={ () => openImageViewer(index) }/>
             </div>
           ))}   
+
+{isViewerOpen && (
+        <ImageViewer
+          src={displayimages }
+          currentIndex={ currentImage }
+          disableScroll={ true }
+          closeOnClickOutside={ true }
+          onClose={ closeImageViewer }
+        />
+      )}
     </div>
     </>
   )

@@ -15,6 +15,7 @@
     "react-router-dom": "^6.21.3",
     "react-scripts": "5.0.1",
     "react-scroll-to-top": "^3.0.0",
+    "react-simple-image-viewer": "^1.2.2",
     "react-slick": "^0.30.0",
     "react-spinners": "^0.13.8",
     "slick-carousel": "^1.8.1",

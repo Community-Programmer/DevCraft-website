@@ -30,7 +30,15 @@ body {
 /* Scroll to top */
 .scroll-to-top {
   background-color: #445c8a !important;
+  z-index: 0 !important;
 }
+
+/* Image viewer for gallery  */
+
+.styles-module_navigation__1pqAE{
+  -webkit-tap-highlight-color: transparent;
+}
+
 
 .main-heading {
   text-align: center;
