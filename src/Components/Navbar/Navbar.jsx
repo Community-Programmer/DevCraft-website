@@ -85,7 +85,7 @@ const Navbar = () => {
     <div class="info-1">
         <ul>
             <li> <a href="email"> <IoMailOutline /> pucollege.com </a> </li>
-            <li> <FaPhone /> 9634236706   </li>
+            <li> <FaPhone /> +91 9901773645</li>
         </ul>
     </div>
 
@@ -93,7 +93,7 @@ const Navbar = () => {
         <ul>
             <li> <Link to="/academic-overview"> Overview </Link> </li>
             <li> <Link to="/contact"> Help </Link> </li>
-            <li> <button class = "support"> Support PU COLLEGE </button>  </li>
+            <li className="cta-button"><Link>Vision & Mission </Link></li>
         </ul>
     </div>
     
@@ -149,7 +149,7 @@ const Navbar = () => {
               </ul>
             </li>
             <li>
-              <Link to="/facilities"> Facilities </Link>
+              <Link to="/facilities" onClick={toggleNavbar}> Facilities </Link>
             </li>
             <li>
             <button ref={gallerySubmenuRef} class="dropbtn" onClick={() => toggleSubmenu("gallery")}>Gallery <FaCaretDown fontSize={18}/></button>

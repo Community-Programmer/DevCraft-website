@@ -63,15 +63,18 @@
     transition-duration:1s;
 }
 
-.info-2 button {
+.cta-button {
     color:white;
     background-color:#3DB166;
     font-size: large;
-    height: 53px;
-    border: none;
-    font-weight: bold;
+    height: 8vh;
     
     
+}
+
+.cta-button a{
+    color: white !important;
+    text-decoration: none;
 }
 
 
