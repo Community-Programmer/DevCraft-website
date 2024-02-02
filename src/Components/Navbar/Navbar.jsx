@@ -92,7 +92,6 @@ const Navbar = () => {
         <ul>
             <li> <Link to="/academic-overview"> Overview </Link> </li>
             <li> <Link to="/contact"> Help </Link> </li>
-            <li> <button class = "support"> Support PU COLLEGE </button>  </li>
         </ul>
     </div>
     
