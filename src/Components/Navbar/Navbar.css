@@ -66,15 +66,20 @@
 .cta-button {
     color:white;
     background-color:#3DB166;
-    font-size: large;
+    font-size: 15.5px;
     height: 8vh;
-    
-    
+    overflow-wrap: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cta-button a{
     color: white !important;
     text-decoration: none;
+    padding: 0.3rem;
+    flex-wrap: wrap;
+    font-weight: bold;
 }
 
 
@@ -293,6 +298,7 @@
 
   @media only screen and (max-width: 768px) {
 
+
     /* For Navbar */
     .nav-container-1 .name-text p:nth-child(2){
        display: none;
@@ -380,3 +386,14 @@
     }
    
   }
+
+  @media only screen and (max-width: 430px){
+    .info-1 ul{
+        padding-left: 0;
+    }
+
+    .info-2 ul{
+        gap: 0.8rem;
+    }
+  }
+

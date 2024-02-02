@@ -40,7 +40,7 @@
 }
 
 .faculties-card-container .committee-card img{
-    aspect-ratio: 10/10;
+    height: 250px;
     object-fit: contain;
 }
 
@@ -54,7 +54,8 @@
     }
 
     .faculties-card-container .committee-card img{
-        width: 80%;
+        width: 75%;
+        height:auto;
     }
 
     .course-card{
@@ -74,6 +75,7 @@
 
     .faculties-card-container .committee-card img{
         width: 80%;
+        height: auto;
     }
 
     .course-card{
