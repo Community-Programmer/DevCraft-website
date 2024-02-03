@@ -59,6 +59,11 @@
     color: white;
     text-align: center;
     padding: 1rem;
+
+}
+
+.footer-bottom p{
+    margin: 0;
 }
 
 @media only screen and (max-width: 768px) {
