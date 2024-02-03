@@ -1,6 +1,6 @@
 import React from "react";
 import "../Academics.css";
-import scholarship from "../../../Assets/28466.jpg";
+import scholarship from "../../../Assets/Scholarship/28466.jpg";
 
 const Scholarship = () => {
   return (
