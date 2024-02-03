@@ -47,16 +47,14 @@
         justify-content: center;
         align-items: center;
         padding: 5px;
-        width: 50%;
+        width: 95%;
     }
 
     .contact-section{
         flex-direction: column-reverse;
     }
 
-    .contact-information{
-        width: 100%;
-    }
+    
 
     .contact-section iframe{
         width: 100%;
