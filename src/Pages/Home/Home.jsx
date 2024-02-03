@@ -26,7 +26,6 @@ const Home = () => {
 
   const handleBtnClick = (link) => {
     navigate(link);
-    window.scrollTo(0, 0);
   };
   const [isPaused, setIsPaused] = useState(false);
 
