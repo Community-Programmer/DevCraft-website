@@ -118,6 +118,14 @@
 
 }
 
+.nav--visible {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        background-color: white;
+  }
+
 /* Underline effect for navbar links  */
 
 .dropdown-content a::before {
@@ -245,6 +253,14 @@
   }
 
   /* Navbar Responsiveness */
+
+  @media only screen and (max-width: 1074px) and (min-width: 768px) {
+
+    .nav-links{
+        gap: 0.8rem;
+    }
+
+  }  
 
 
   @media only screen and (max-width: 768px) {

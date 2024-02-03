@@ -37,6 +37,32 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [openSubmenu, setOpenSubmenu] = useState(null);
 
+  const [isNavHidden, setNavHidden] = useState(false);
+  const [lastScrollY, setLastScrollY] = useState(window.scrollY);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      
+      setLastScrollY(window.scrollY);
+      if (lastScrollY < window.scrollY) {
+        
+        setNavHidden(false);
+      } else {
+        setNavHidden(true);
+      }
+      
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [lastScrollY]);
+
+  const navClassName = isNavHidden ? 'nav--visible' : '';
+
+
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
@@ -102,7 +128,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      <nav id="navbar">
+      <nav id="navbar" className={navClassName}>
         <div class="nav-container-1">
           <div className="logo-container">
             <div class="logo">
