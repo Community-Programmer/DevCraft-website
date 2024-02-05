@@ -10,6 +10,16 @@ import event9 from "../Assets/Events Picture/9.png";
 import event10 from "../Assets/Events Picture/10.png";
 import event11 from "../Assets/Events Picture/11.png";
 import event12 from "../Assets/Events Picture/12.png";
+import event13 from "../Assets/Events Picture/13.png";
+import event14 from "../Assets/Events Picture/14.png";
+import event15 from "../Assets/Events Picture/15.png";
+import event16 from "../Assets/Events Picture/16.png";
+import event17 from "../Assets/Events Picture/17.png";
+import event18 from "../Assets/Events Picture/18.png";
+import event19 from "../Assets/Events Picture/19.png";
+import event20 from "../Assets/Events Picture/20.png";
+import event21 from "../Assets/Events Picture/21.png";
+import event22 from "../Assets/Events Picture/22.png";
 
 
 const eventData = [
@@ -84,7 +94,70 @@ const eventData = [
         title: 'Taking Oath about upholding Constitution',
         description: 'In recognition of the profound responsibility bestowed upon me as a citizen of India, solemnly pledge my unwavering commitment to upholding and defending the Constitution of India.This oath serve as a solemn reminder of the duties we all share as citizens, and may my actions reflect the highest ideals set forth in our Constitution'
 
+    },
+    {
+        image: event13,
+        title: 'Sports team of high school participating in cluster level sports',
+        description: 'The spirited athletes of High School sports team showcased their exceptional skills and sportsmanship at the recent cluster-level sports event. The event brought together talented teams from various schools in the region, creating an atmosphere of fierce competition and camaraderie'
+
+    },
+    {
+        image: event14,
+        title: 'Opening ceremony to provide NEET JEE coaching in college',
+        description: "The institution embarked on a transformative journey by inaugurating its NEET and JEE coaching program. The grand opening ceremony marked the commencement of a new chapter in the college's commitment to academic excellence and nurturing aspiring medical and engineering professionals"
+
+    },
+    {
+        image: event15,
+        title: 'Prize Distribution to Winners of High School level Sports',
+        description: "Celebrating the triumphs of skill, dedication, and sportsmanship,Our High School recently held a spectacular Prize Distribution Ceremony to honor the outstanding athletes who emerged victorious in the high school-level sports competitions. The event was a culmination of weeks of intense competition and showcased the school's commitment"
+
+    },
+    {
+        image: event16,
+        title: 'Parents - teachers meeting to discuss academic well being of students',
+        description: "In a collaborative effort to ensure the academic success and overall well-being of students, We hosted a Parents-Teachers Meeting to provide a valuable platform for parents and teachers to engage in open and constructive discussions about the progress, challenges, and potential areas of improvement for each student"
+
+    },
+    {
+        image: event17,
+        title: 'Plantation to create environmental awareness among students',
+        description: "In a concerted effort to instill a sense of environmental responsibility and awareness, We organized a tree plantation drive. The event aimed not only to contribute to the ecological well-being but also to educate and inspire students about the importance of environmental conservation"
+
+    },
+    {
+        image: event18,
+        title: 'Project work by students regarding environment',
+        description: "At School, students recently undertook a comprehensive project that delved into various aspects of environmental conservation and sustainability. The project, aimed at raising awareness, proposing solutions, and fostering a deeper understanding of environmental issues among the student body"
+
+    },
+    {
+        image: event19,
+        title: 'Complete Prize gallery awarded to govt high school',
+        description: "In a momentous celebration of academic excellence, the Government High School proudly unveiled its Complete Prize Gallery, honoring the remarkable accomplishments of its students. This initiative aims to recognize and showcase the outstanding achievements of the school's bright minds in various fields"
+
+    },
+    {
+        image: event20,
+        title: 'Complete Prize gallery awarded to govt high school',
+        description: "In an effort to embrace sustainability and reduce the carbon footprint, We had recently undertaken a transformative initiative by installing solar panels to generate clean energy. The solar panel installation project marks a significant step towards fostering environmental responsibility and harnessing renewable energy"
+
+    },
+    {
+        image: event21,
+        title: 'Complete Prize gallery awarded to govt high school',
+        description: "The Primary School takes immense pride in recognizing and celebrating the brilliance and dedication of its young scholars. We honor and award certificates to our well-performing students who have consistently demonstrated exceptional academic achievement and a commitment to personal growth"
+
+    },
+    {
+        image: event22,
+        title: 'Celebration of Kannada Rajyotsava',
+        description: "We are thrilled to share the highlights of our recent Kannada Rajyotsava celebration, where we came together as a community to honor the rich cultural heritage of Karnataka. The event was a vibrant tapestry of traditions, art, and unity, celebrating the essence of Kannada Rajyotsava with great enthusiasm"
+
     }
+
+
+
 
 ]
 
