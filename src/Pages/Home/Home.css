@@ -132,6 +132,12 @@
 }
 
 @media only screen and (max-width: 468px) {
+
+  .home-card img {
+    width: 100%;
+    aspect-ratio: unset;
+  }
+
   .home-card-container {
     flex-direction: column;
   }
