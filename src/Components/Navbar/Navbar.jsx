@@ -26,6 +26,7 @@ import { FaSchoolFlag } from "react-icons/fa6";
 //Icons for Gallery
 import { FaImage } from "react-icons/fa";
 import { FaVideo } from "react-icons/fa";
+import { MdEmojiEvents } from "react-icons/md";
 
 // Icons for About
 import { FaUsers } from "react-icons/fa";
@@ -278,6 +279,11 @@ const Navbar = () => {
                 <li>
                   <Link to="/gallery-videos" onClick={toggleNavbar}>
                     <FaVideo /> School Videos
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/events" onClick={toggleNavbar}>
+                    <MdEmojiEvents /> School Events
                   </Link>
                 </li>
               </ul>
