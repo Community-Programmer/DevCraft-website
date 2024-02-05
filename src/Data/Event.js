@@ -20,6 +20,11 @@ import event19 from "../Assets/Events Picture/19.png";
 import event20 from "../Assets/Events Picture/20.png";
 import event21 from "../Assets/Events Picture/21.png";
 import event22 from "../Assets/Events Picture/22.png";
+import event23 from "../Assets/Events Picture/23.png";
+import event24 from "../Assets/Events Picture/24.png";
+import event25 from "../Assets/Events Picture/25.png";
+import event26 from "../Assets/Events Picture/26.png";
+import event27 from "../Assets/Events Picture/27.png";
 
 
 const eventData = [
@@ -154,7 +159,38 @@ const eventData = [
         title: 'Celebration of Kannada Rajyotsava',
         description: "We are thrilled to share the highlights of our recent Kannada Rajyotsava celebration, where we came together as a community to honor the rich cultural heritage of Karnataka. The event was a vibrant tapestry of traditions, art, and unity, celebrating the essence of Kannada Rajyotsava with great enthusiasm"
 
+    },
+    {
+        image: event23,
+        title: 'Physical education to Primary School students',
+        description: "We are excited to announce the introduction of a comprehensive Physical Education program for our primary school students. Understanding the importance of holistic development, we believe that physical activity plays a crucial role in nurturing well-rounded individuals"
+
+    },
+    {
+        image: event24,
+        title: 'Providing nutrient food facilities to Primary and High school Students',
+        description: "We are delighted to share some exciting news regarding the well-being of our primary school students. As part of our commitment to fostering a healthy learning environment, we are introducing a new initiative to provide nutrient-rich food facilities for our young learners"
+
+    },
+    {
+        image: event25,
+        title: 'Distribution of Shoes to Primary school students',
+        description: "We are thrilled to share a heartwarming initiative taking place at school that directly impacts the well-being of our primary school students. As part of our commitment to providing a conducive learning environment, we are excited to announce the our Shoe Distribution Programs"
+
+    },
+    {
+        image: event26,
+        title: 'Our school trip',
+        description: "We're excited to share a recap of the fantastic school trip .The event was a remarkable journey filled with adventure, learning, and bonding. From educational tours to hands-on workshops, the trip offered a perfect blend of academic enrichment and fun"
+
+    },
+    {
+        image: event27,
+        title: 'Dr,. S Anantaraj, Student Scientist Interaction',
+        description: "We are thrilled to announce an exciting and enriching opportunity for our students to engage in a special interaction with Dr. S Anantaraj, a distinguished scientist with expertise in his field. This event promises to be a unique and insightful experience for our budding scientists"
+
     }
+
 
 
 
