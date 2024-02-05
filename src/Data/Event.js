@@ -5,6 +5,11 @@ import event4 from "../Assets/Events Picture/4.png";
 import event5 from "../Assets/Events Picture/5.png";
 import event6 from "../Assets/Events Picture/6.png";
 import event7 from "../Assets/Events Picture/7.png";
+import event8 from "../Assets/Events Picture/8.png";
+import event9 from "../Assets/Events Picture/9.png";
+import event10 from "../Assets/Events Picture/10.png";
+import event11 from "../Assets/Events Picture/11.png";
+import event12 from "../Assets/Events Picture/12.png";
 
 
 const eventData = [
@@ -49,7 +54,38 @@ const eventData = [
         title: 'Opening ceremony of Badminton Court',
         description: 'Celebrating the Grand Opening of Our New Badminton Court! The energy was electrifying as we came together to inaugurate our state-of-the-art badminton court. The opening ceremony was a testament to our commitment to promoting a healthy and active lifestyle within our community. '
 
+    },
+    {
+        image: event8,
+        title: 'Recognition of Academic excellence of meritorious Students of College',
+        description: 'Government Institution, RajanuKunte proudly hosted a grand ceremony to recognize and celebrate the outstanding academic achievements of its meritorious students. The event was a testament to the dedication, hard work, and intellectual prowess of the brilliant minds that grace the campus'
+
+    },
+    {
+        image: event9,
+        title: 'Distribution of Bags and Books to students from the Institution',
+        description: 'We took a significant step towards fostering education and supporting its students by organizing the Distribution of Bags and Books ceremony. The occasion was marked by a spirit of generosity, community, and a shared commitment to providing essential resources for academic success'
+
+    },
+    {
+        image: event10,
+        title: 'Distribution of necessary aid during Covid',
+        description: 'In a time marked by unprecedented challenges and uncertainties, We took a compassionate and proactive stance by organizing a significant event - the Distribution of Necessary Aid during the COVID-19 pandemic. This initiative aimed to provide essential support to individuals and families facing hardships during these trying times'
+
+    },
+    {
+        image: event11,
+        title: 'Distribution of necessary aid to Students from College during Covid',
+        description: 'In a concerted effort to stand by its students during the challenging times of the COVID-19 pandemic, Pu College organized a compassionate event - the Distribution of Necessary Aid to College Students. This initiative aimed to provide crucial support to students facing hardships, ensuring they could continue their education with a sense of security and well-being'
+
+    },
+    {
+        image: event12,
+        title: 'Taking Oath about upholding Constitution',
+        description: 'In recognition of the profound responsibility bestowed upon me as a citizen of India, solemnly pledge my unwavering commitment to upholding and defending the Constitution of India.This oath serve as a solemn reminder of the duties we all share as citizens, and may my actions reflect the highest ideals set forth in our Constitution'
+
     }
+
 ]
 
 export default eventData
