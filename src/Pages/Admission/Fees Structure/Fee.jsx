@@ -1,7 +1,7 @@
 import React from "react";
 import "../Admission.css";
 import feeImg from "../../../Assets/Fees Page/Fee.jpg";
-import overview from "../../../Assets/Academic Page/Overview.jpg";
+import feethumb from "../../../Assets/Fees Page/fee-thumb.jpg";
 
 // Downloadable Content
 
@@ -13,7 +13,7 @@ const Fee = () => {
   return (
     <>
       <div className="box-heading">
-        <img src={overview} alt="scholarship" />
+        <img src={feethumb} alt="fee" />
         <div>
           <h1 className="main-heading">Fee Structure</h1>
           <p>
