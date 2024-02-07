@@ -13,7 +13,7 @@ import Faculties9 from '../../../Assets/Department/HS9.png'
 const highSchoolFaculties = [
     {
         image: Faculties1,
-        name: 'Shri Kanataraju B G',
+        name: 'Mr. Kanataraju B G',
         role: 'Head Master',
         education: 'Education - M.Sc, M.Ed, KES',
         joiningDate: 'Date of Joining - 15-06-2007',
@@ -21,7 +21,7 @@ const highSchoolFaculties = [
     },
     {
         image: Faculties2,
-        name: 'Suguna SM (PCM)',
+        name: 'Mrs. Suguna SM (PCM)',
         role: '',
         education: 'Education - M.Sc, B.Ed',
         joiningDate: 'Date of Joining - 12-07-1997',
@@ -29,7 +29,7 @@ const highSchoolFaculties = [
     },
     {
         image: Faculties3,
-        name: 'Uma Dindoor (Arts)',
+        name: 'Mrs. Uma Dindoor (Arts)',
         role: 'Head of Tourism, Event and Cultural Dept. - GHS',
         education: 'Education - MA, B.Ed',
         joiningDate: 'Date of Joining - 30-07-2007',
@@ -37,7 +37,7 @@ const highSchoolFaculties = [
     },
     {
         image: Faculties4,
-        name: 'Shreedevi G (CBZ)',
+        name: 'Mrs. Shreedevi G (CBZ)',
         role: 'Head of Science and Technology Dept. - GHS',
         education: 'Education - B.Sc, B.Ed',
         joiningDate: 'Date of Joining - 09-07-2008',
@@ -45,7 +45,7 @@ const highSchoolFaculties = [
     },
     {
         image: Faculties5,
-        name: 'Manjula Bai S (Hindi)',
+        name: 'Mrs. Manjula Bai S (Hindi)',
         role: 'Head of Library Dept. - GHS',
         education: 'Education - MA, B.Ed',
         joiningDate: 'Date of Joining - 03-06-1985',
@@ -53,7 +53,7 @@ const highSchoolFaculties = [
     },
     {
         image: Faculties6,
-        name: 'Siddangangamma (Kannada)',
+        name: 'Mrs. Siddangangamma (Kannada)',
         role: 'Head of Controller of Examination (COE) - GHS',
         education: 'Education - MA, B.Ed',
         joiningDate: 'Date of Joining - 14-02-1985',
@@ -61,7 +61,7 @@ const highSchoolFaculties = [
     },
     {
         image: Faculties7,
-        name: 'Vedavati Bhat (PT)',
+        name: 'Mrs. Vedavati Bhat (PT)',
         role: 'Head of Physical Education and National Festivals. - GHS',
         education: 'Education - M.P.Ed',
         joiningDate: 'Date of Joining - 25-07-1994',
@@ -69,7 +69,7 @@ const highSchoolFaculties = [
     },
     {
         image: Faculties8,
-        name: 'Katyayani. S',
+        name: 'Mrs. Katyayani. S',
         role: '',
         education: 'Education - PUC',
         joiningDate: 'Date of Joining - 21-10-2017',

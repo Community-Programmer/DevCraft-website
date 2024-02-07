@@ -8,7 +8,7 @@ const commerceFaculties = [
 
     {
         image: Faculties1,
-        name: 'Dr. Laxmi Prasad S B (History)',
+        name: 'Mr. Laxmi Prasad S B (History)',
         role: 'Head of Tourism Dept. - PU College',
         education: 'Education - M.Sc, B.Ed',
         joiningDate: 'Date of Joining - 19/07/1994',
@@ -16,15 +16,15 @@ const commerceFaculties = [
     },
     {
         image: Faculties2,
-        name: 'Ashwathamma K T (Acc & Bus. Studies)',
+        name: 'Mrs. Ashwathamma K T (Acc & Bus. Studies)',
         role: '',
-        education: 'Education - M.Com ,B.Ed',
+        education: 'Education - M.Com, B.Ed',
         joiningDate: 'Date of Joining - 06/02/2023',
         experience: 'Teaching Experience - 1 Years'
     },
     {
         image: Faculties_blank,
-        name: 'B R Shivanna (Economics)',
+        name: 'Mr. B R Shivanna (Economics)',
         role: 'Head of Library Dept. - GHS',
         education: 'Education - MA, B.Ed',
         joiningDate: 'Date of Joining - 08/01/2018',
@@ -32,15 +32,15 @@ const commerceFaculties = [
     },
     {
         image: Faculties_blank,
-        name: 'Rakshit M V (Accountancy)',
+        name: 'Mrs. Rakshit M V (Accountancy)',
         role: '',
-        education: 'Education - MCom.',
+        education: 'Education - M.Com ',
         joiningDate: '',
         experience: 'Teaching Experience - 8 Years'
     },
     {
         image: Faculties_blank,
-        name: 'Bhoomika C M (Computer Science)',
+        name: 'Mrs. Bhoomika C M (Computer Science)',
         role: '',
         education: 'Education - BE - Computer Science',
         joiningDate: '',

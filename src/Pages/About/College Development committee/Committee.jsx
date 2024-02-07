@@ -58,7 +58,7 @@ const Committee = () => {
               <span>About - Businessman</span>
 
               <p>
-                R M Somashekar Reddy is a dynamic businessman, bringing a wealth
+                Shri R M Somashekar Reddy is a dynamic businessman, bringing a wealth
                 of entrepreneurial expertise to his role as Vice-president. With
                 a keen business acumen, he contributes valuable insights to the
                 organization. Mr. Reddy's commitment to excellence and strategic
@@ -78,7 +78,7 @@ const Committee = () => {
               <span>About - B.Pharm, Social Worker</span>
 
               <p>
-                RC Rajendra Kumar, holding a degree in B.Pharm, is not only a
+                Shri RC Rajendra Kumar, holding a degree in B.Pharm, is not only a
                 skilled professional but also a dedicated social worker. As
                 Treasurer, he blends pharmaceutical knowledge with a passion for
                 social causes. Mr. Kumar's commitment to community service adds

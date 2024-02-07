@@ -30,7 +30,6 @@
     background-color:#3DB166;
     font-size: 15.5px;
     height: 8vh;
-    /* overflow-wrap: break-word; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,6 +42,36 @@
     font-weight: bold;
 }
 
+.topDropbtn{
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    font-size: 1rem;
+    color:#fff;
+    cursor: pointer;
+}
+
+.topmenu-dropdown-content{
+    display: none;
+    border: 2px solid black;
+    position: absolute;
+    background-color: #163269;
+    padding: 0;
+}
+
+.quickLinks-submenu .dropdown-content li a{
+    color: black;
+    position: relative;
+  }
+
+
+
+.quickLinks-submenu .dropdown-content{
+    min-width: 150px;
+}
 
 
 .nav-container-1{
@@ -53,17 +82,21 @@
     gap: 1rem;
 }
 
-
+.logo-container{
+    display: flex;
+    gap: 1rem;
+}
 
 .name-text{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 55%;
+    line-height: 5px;
+    margin: auto;
+}
+.name-text a{
+    text-decoration: none;
+    color: black;
 }
 
 .name-text p{
-    width: 20%;
     font-weight: 650;
 }
 
@@ -151,7 +184,7 @@
 /* Navbar Submenu */
 
 .dropdown-content {
-    display: none;
+    display: none !important;
     position: absolute;
     background-color: #f9f9f9;
     min-height: 0px;
@@ -185,7 +218,7 @@
   
 
 .dropdown-content.submenu{
-    display: block;
+    display: block !important;
   }
 
 
@@ -267,12 +300,8 @@
 
 
     /* For Navbar */
-    .nav-container-1 .name-text p:nth-child(2){
+    .nav-container-1 .name-text p:nth-child(1){
        display: none;
-    }
-
-    .nav-container-1 .name-text p:last-child{
-        display: none;
     }
 
     .nav-container-1{
@@ -281,8 +310,8 @@
 
     }
 
-    .name-text p{
-        width: auto;
+    .name-text {
+        line-height: unset;
     }
 
     .menu-icon{
@@ -347,6 +376,10 @@
         padding: 0;
         
     }
+    .quickLinks-submenu .dropdown-content{
+        position: absolute;
+        background-color: #f9f9f9;
+    }
 
     .dropdown-content li {
         margin-top: 5px;
@@ -358,14 +391,18 @@
     .top-nav{
         font-size: 0.8rem;
     }
+
+    .topDropbtn{
+        font-size: 0.8rem;
+    }
     
     .info-start ul{
-        padding: 1rem;
+        display: none;
         
     }
 
     .info-end ul {
-        gap: 0.5rem;
+        gap: 1rem;
         padding: 0;
     }
     

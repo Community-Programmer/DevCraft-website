@@ -43,19 +43,19 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      
       setLastScrollY(window.scrollY);
-      if (lastScrollY < window.scrollY) {
-        
+      if (window.scrollY === 0) {
+        setNavHidden(false);
+      }
+      else if (lastScrollY < window.scrollY) {
         setNavHidden(false);
       } else {
         setNavHidden(true);
       }
-      
     };
-
+  
     window.addEventListener('scroll', handleScroll);
-
+  
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -80,6 +80,7 @@ const Navbar = () => {
   const admissionSubmenuRef = useRef(null);
   const aboutSubmenuRef = useRef(null);
   const gallerySubmenuRef = useRef(null);
+  const topNavSubmenuRef = useRef(null);
 
   useEffect(() => {
     const handleDocumentClick = (event) => {
@@ -89,6 +90,7 @@ const Navbar = () => {
         !departmentSubmenuRef.current?.contains(event.target) &&
         !aboutSubmenuRef.current?.contains(event.target) &&
         !gallerySubmenuRef.current?.contains(event.target) &&
+        !topNavSubmenuRef.current?.contains(event.target) &&
         !document.querySelector(".dropbtn").contains(event.target)
       ) {
         setOpenSubmenu(null);
@@ -114,9 +116,59 @@ const Navbar = () => {
           </ul>
         </div>
         <div class="info-end">
-          <ul>
+          <ul >  
+            <li className="quickLinks-submenu">
+            <button
+                ref={topNavSubmenuRef}
+                class="topDropbtn"
+                onClick={() => toggleSubmenu("quicklinks")}
+              >
+                Quick Links <FaCaretDown fontSize={18} />
+              </button>
+              <ul
+                className={`dropdown-content ${
+                  openSubmenu === "quicklinks" ? "submenu" : ""
+                }`}
+              >
+                <li>
+                  <Link to="https://kseab.karnataka.gov.in/english" target='_blank'>
+                  KSEAB
+                  </Link>
+                </li>
+                <li>
+                  <Link to="https://pue.karnataka.gov.in/" target='_blank'>
+                  DPUE
+                  </Link>
+                </li>
+                <li>
+                  <Link to="https://cetonline.karnataka.gov.in/kea/" target='_blank'>
+                  KEA
+                  </Link>
+                </li>
+                <li>
+                  <Link to="https://ssp.postmatric.karnataka.gov.in/" target='_blank'>
+                  SSP
+                  </Link>
+                </li>
+                <li>
+                  <Link to="https://scholarships.gov.in/" target='_blank'>
+                  NSP
+                  </Link>
+                </li>
+                <li>
+                  <Link to="https://neet.nta.nic.in/" target='_blank'>
+                  NEET
+                  </Link>
+                </li>
+                <li>
+                  <Link to="https://jeemain.nta.ac.in/" target='_blank'>
+                  JEE
+                  </Link>
+                </li>
+               
+              </ul>
+            </li>
             <li>
-              
               <Link to="/academic-overview"> Overview </Link>
             </li>
             <li>
@@ -137,11 +189,13 @@ const Navbar = () => {
                 <img src={logo} alt="collegeLogo" />
               </Link>
             </div>
-          </div>
+          
           <div className="name-text">
-            <p> Government Institution, RajanuKunte </p>
-            <p> सरकारी संस्थान, राजनुकुंते</p>
-            <p> ಸರ್ಕಾರಿ ಸಂಸ್ಥೆ, ರಾಜನಕುಂಟೆ </p>
+          <Link to='/'>
+            <p> ಸರ್ಕಾರಿ ಸಂಸ್ಥೆ, ರಾಜಾನುಕುಂಟೆ </p>
+            <p> Government Institutions, Rajanukunte </p>
+          </Link>
+          </div>
           </div>
           {isOpen ? (
             ""
@@ -325,7 +379,6 @@ const Navbar = () => {
             </li>
             <li>
               <Link to="/contact" onClick={toggleNavbar}>
-                
                 Contact us
               </Link>
             </li>
