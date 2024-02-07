@@ -169,30 +169,35 @@ const Navbar = () => {
             </li>
             <li>
               <button
-                ref={academicsSubmenuRef}
+                ref={aboutSubmenuRef}
                 class="dropbtn"
-                onClick={() => toggleSubmenu("academics")}
+                onClick={() => toggleSubmenu("about")}
               >
-                Academics <FaCaretDown fontSize={18} />
+                About <FaCaretDown fontSize={18} />
               </button>
               <ul
                 className={`dropdown-content ${
-                  openSubmenu === "academics" ? "submenu" : ""
+                  openSubmenu === "about" ? "submenu" : ""
                 }`}
               >
                 <li>
-                  <Link to="/academic-overview" onClick={toggleNavbar}>
-                    <FaBook /> Academic Overview
+                  <Link to="/chairperson" onClick={toggleNavbar}>
+                    <RiUserStarFill /> About Chairperson
                   </Link>
                 </li>
                 <li>
-                  <Link to="/timetable" onClick={toggleNavbar}>
-                    <FaRegCalendarDays /> Timetables
+                  <Link to="/development-committe" onClick={toggleNavbar}>
+                    <FaUsers /> College Development commite
                   </Link>
                 </li>
                 <li>
-                  <Link to="/scholarship" onClick={toggleNavbar}>
-                    <SiGooglescholar /> Scholarships
+                  <Link to="/board-members" onClick={toggleNavbar}>
+                    <ImProfile /> Board of Members
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/principal" onClick={toggleNavbar}>
+                    <FaUser /> Principal
                   </Link>
                 </li>
               </ul>
@@ -218,6 +223,36 @@ const Navbar = () => {
                 <li>
                   <Link to="/fee" onClick={toggleNavbar}>
                     <FaMoneyBill /> Fee Structure
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button
+                ref={academicsSubmenuRef}
+                class="dropbtn"
+                onClick={() => toggleSubmenu("academics")}
+              >
+                Academics <FaCaretDown fontSize={18} />
+              </button>
+              <ul
+                className={`dropdown-content ${
+                  openSubmenu === "academics" ? "submenu" : ""
+                }`}
+              >
+                <li>
+                  <Link to="/academic-overview" onClick={toggleNavbar}>
+                    <FaBook /> Academic Overview
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/timetable" onClick={toggleNavbar}>
+                    <FaRegCalendarDays /> Timetables
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/scholarship" onClick={toggleNavbar}>
+                    <SiGooglescholar /> Scholarships
                   </Link>
                 </li>
               </ul>
@@ -284,41 +319,6 @@ const Navbar = () => {
                 <li>
                   <Link to="/events" onClick={toggleNavbar}>
                     <MdEmojiEvents /> School Events
-                  </Link>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <button
-                ref={aboutSubmenuRef}
-                class="dropbtn"
-                onClick={() => toggleSubmenu("about")}
-              >
-                About <FaCaretDown fontSize={18} />
-              </button>
-              <ul
-                className={`dropdown-content ${
-                  openSubmenu === "about" ? "submenu" : ""
-                }`}
-              >
-                <li>
-                  <Link to="/development-committe" onClick={toggleNavbar}>
-                    <FaUsers /> College Development commite
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/board-members" onClick={toggleNavbar}>
-                    <ImProfile /> Board of Members
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/chairperson" onClick={toggleNavbar}>
-                    <RiUserStarFill /> About Chairperson
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/principal" onClick={toggleNavbar}>
-                    <FaUser /> Principal
                   </Link>
                 </li>
               </ul>
