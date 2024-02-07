@@ -54,11 +54,11 @@ const Committee = () => {
           <div className="committee-card">
             <img src={VicePresident} alt="vice president" />
             <div className="profile-info">
-              <h3>R M Somashekar Reddy</h3>
+              <h3>Shri R M Somashekar Reddy</h3>
               <span>About - Businessman</span>
 
               <p>
-                R M Somashekar Reddy is a dynamic businessman, bringing a wealth
+                Shri R M Somashekar Reddy is a dynamic businessman, bringing a wealth
                 of entrepreneurial expertise to his role as Vice-president. With
                 a keen business acumen, he contributes valuable insights to the
                 organization. Mr. Reddy's commitment to excellence and strategic
@@ -74,11 +74,11 @@ const Committee = () => {
           <div className="committee-card">
             <img src={Treasurer} alt="Treasurer" />
             <div className="profile-info">
-              <h3>RC Rajendra Kumar</h3>
+              <h3>Shri RC Rajendra Kumar</h3>
               <span>About - B.Pharm, Social Worker</span>
 
               <p>
-                RC Rajendra Kumar, holding a degree in B.Pharm, is not only a
+                Shri RC Rajendra Kumar, holding a degree in B.Pharm, is not only a
                 skilled professional but also a dedicated social worker. As
                 Treasurer, he blends pharmaceutical knowledge with a passion for
                 social causes. Mr. Kumar's commitment to community service adds

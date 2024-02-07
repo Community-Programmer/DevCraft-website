@@ -7,7 +7,7 @@ import Faculties4 from '../../../Assets/Department/PUA4.png'
 const artFaculties = [
     {
         image: Faculties1,
-        name: 'Dr. Laxmi Prasad S B (History)',
+        name: 'Mr. Laxmi Prasad S B (History)',
         role: 'Head of Tourism Dept. - PU College',
         education: 'Education - M.Sc, B.Ed',
         joiningDate: 'Date of Joining - 19/07/1994',
@@ -15,7 +15,7 @@ const artFaculties = [
     },
     {
         image: Faculties2,
-        name: 'Dr. B R Shivanna (Economics)',
+        name: 'Mr. B R Shivanna (Economics)',
         role: 'Head of Library Dept. - GHS',
         education: 'Education - MA, B.Ed',
         joiningDate: 'Date of Joining - 08/01/2018',
@@ -23,15 +23,15 @@ const artFaculties = [
     },
     {
         image: Faculties3,
-        name: 'Manjula V R (Political Science)',
+        name: 'Mrs. Manjula V R (Political Science)',
         role: 'Head of Tourism Dept. - PU College',
-        education: 'Education - MA, M. Phil',
+        education: 'Education - MA, M.Phil',
         joiningDate: 'Date of Joining - 05/07/2007',
         experience: 'Teaching Experience - 17 Years'
     },
     {
         image: Faculties4,
-        name: 'Dr Gouthami J K (Sociology)',
+        name: 'Mrs. Gouthami J K (Sociology)',
         role: 'Head of NSS Club Dept. - PU College',
         education: 'Education - MA, B.Ed',
         joiningDate: 'Date of Joining - 01/07/2013',
