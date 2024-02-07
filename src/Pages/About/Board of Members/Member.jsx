@@ -28,11 +28,11 @@ const Member = () => {
         <div className="committee-card">
           <img src={Member1} alt="member" />
           <div className="profile-info">
-            <h3>Shri. M Manjunath </h3>
+            <h3>Shri M Manjunath </h3>
             <span>Edu - BA</span>
 
             <p>
-              Shri. M Manjunath holds a Bachelor of Arts degree, reflecting his
+              Shri M Manjunath holds a Bachelor of Arts degree, reflecting his
               educational background. His pursuit of a Bachelor's degree
               underscores a foundational understanding of various subjects,
               contributing to a well-rounded knowledge base
@@ -58,11 +58,11 @@ const Member = () => {
         <div className="committee-card">
           <img src={Member3} alt="member" />
           <div className="profile-info">
-            <h3>Shri.M MohanKumar</h3>
+            <h3>Shri M MohanKumar</h3>
             <span>Edu - Dip civil</span>
 
             <p>
-              Shri. M MohanKumar holds a Diploma in Civil Engineering,
+              Shri M MohanKumar holds a Diploma in Civil Engineering,
               emphasizing his specialized education in the field and
               establishing a strong foundation for contributions to construction
               and infrastructure projects.
