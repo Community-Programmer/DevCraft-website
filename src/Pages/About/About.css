@@ -50,13 +50,19 @@
     padding-bottom: 20px;
   }
 
+  .vision span{
+    color: #323232;
+  }
+
   .vm-heading{
-    padding-left:2rem;
+    text-align: center;
+    font-size: larger;
+    color: #323232;
   }
   
   
   .vision-container div  p {
-    line-height: 2.4rem;
+    line-height: 1.8rem;
     padding-left: 2rem;
     font-weight:500;
     font-size:large;
