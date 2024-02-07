@@ -11,15 +11,15 @@ const scienceFaculties = [
 
     {
         image: Faculties1,
-        name: 'Kartik Ankar (Chemistry)',
+        name: 'Mr. Kartik Ankar (Chemistry)',
         role: 'Head of Scouts and Guides - PU College',
-        education: 'Education - MSc., BED, PHD',
+        education: 'Education - MSc., B.Ed, (PHD)',
         joiningDate: 'Date of Joining - 24/10/2009',
         experience: 'Teaching Experience - 15 Years'
     },
     {
         image: Faculties2,
-        name: 'N Veedavathi (Mathematics)',
+        name: 'Mrs. N Veedavathi (Mathematics)',
         role: 'Head of Controller of Examination (COE) - GHS',
         education: 'Education - MA ,B.Ed',
         joiningDate: 'Date of Joining - 02-05-2011',
@@ -27,7 +27,7 @@ const scienceFaculties = [
     },
     {
         image: Faculties3,
-        name: 'Jayaramareddy R (Physics)',
+        name: 'Mr. Jayaramareddy R (Physics)',
         role: 'Head of Bharat Seva Dal Dept. - PU College',
         education: 'Education - MSc., B.Ed',
         joiningDate: 'Date of Joining - 28/06/2013',
@@ -35,23 +35,23 @@ const scienceFaculties = [
     },
     {
         image: Faculties4,
-        name: 'V Lokeshwari (Biology)',
+        name: 'Mrs. V Lokeshwari (Biology)',
         role: 'Head of Eco Club Dept. - PU College',
-        education: 'Education - MSc. ,B.Ed',
+        education: 'Education - MSc., B.Ed',
         joiningDate: 'Date of Joining - 28/06/2013',
         experience: 'Teaching Experience - 11 Years'
     },
     {
         image: Faculties5,
-        name: 'H Hussensabi (Kannada)',
+        name: 'Mr. H Hussensabi (Kannada)',
         role: '',
-        education: 'Education - MSc. ,B.Ed',
+        education: 'Education - MA, B.Ed',
         joiningDate: 'Date of Joining - 22/08/1998',
         experience: 'Teaching Experience - 26 Years'
     },
     {
         image: Faculties6,
-        name: 'Padmashree K (English)',
+        name: 'Mrs. Padmashree K (English)',
         role: '',
         education: 'Education - M.A, MPhil, NET, B.Ed',
         joiningDate: 'Date of Joining - 01/07/2013',
@@ -59,7 +59,7 @@ const scienceFaculties = [
     },
     {
         image: Faculties7,
-        name: 'Bhoomika C M (Computer Science)',
+        name: 'Mrs.Bhoomika C M (Computer Science)',
         role: '',
         education: 'Education - BE - Computer Science',
         joiningDate: '',
