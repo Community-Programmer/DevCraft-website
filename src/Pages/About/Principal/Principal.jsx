@@ -32,7 +32,7 @@ const Principal = () => {
           <div className="committee-card">
             <img src={Principal1} alt="principal" />
             <div className="profile-info">
-              <h3>V R Manjula</h3>
+              <h3>Ms. V R Manjula</h3>
               <span>
                 Edu - M.A,M.Phil | Teaching experience - 17 years | Joining date
                 - 05/11/2007
@@ -53,7 +53,7 @@ const Principal = () => {
           <div className="committee-card">
             <img src={Principal2} alt="principal" />
             <div className="profile-info">
-              <h3>Kantaruju B G</h3>
+              <h3>Mr. Kantaruju B G</h3>
               <span>
                 Edu - MSc, M.Ed, KES | Teaching experience - 17 years | Joining
                 date - 15/06/2007
@@ -74,7 +74,7 @@ const Principal = () => {
           <div className="committee-card">
             <img src={Principal3} alt="principal" />
             <div className="profile-info">
-              <h3>SREENIVASA G</h3>
+              <h3>Mr. SREENIVASA G</h3>
               <span>
                 Edu - CPEd, Kan& Eng Sr typing, PUC | Teaching experience - 29
                 years | Joining date - 26/07/1994

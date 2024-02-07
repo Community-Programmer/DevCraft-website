@@ -54,7 +54,7 @@ const Committee = () => {
           <div className="committee-card">
             <img src={VicePresident} alt="vice president" />
             <div className="profile-info">
-              <h3>R M Somashekar Reddy</h3>
+              <h3>Shri R M Somashekar Reddy</h3>
               <span>About - Businessman</span>
 
               <p>
@@ -74,7 +74,7 @@ const Committee = () => {
           <div className="committee-card">
             <img src={Treasurer} alt="Treasurer" />
             <div className="profile-info">
-              <h3>RC Rajendra Kumar</h3>
+              <h3>Shri RC Rajendra Kumar</h3>
               <span>About - B.Pharm, Social Worker</span>
 
               <p>
