@@ -50,14 +50,9 @@
     padding-bottom: 20px;
   }
 
-  .vision span{
-    color: #323232;
-  }
-
   .vm-heading{
     text-align: center;
     font-size: larger;
-    color: #323232;
   }
 
   .vm-heading ~ hr{
@@ -70,7 +65,6 @@
     line-height: 1.2rem;
     padding-left: 7rem;
     padding-right: 7rem;
-    font-weight:500;
     font-size:large;
     text-align: left;
   
