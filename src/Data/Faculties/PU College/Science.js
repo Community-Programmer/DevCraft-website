@@ -20,8 +20,8 @@ const scienceFaculties = [
     {
         image: Faculties2,
         name: 'Mrs. N Veedavathi (Mathematics)',
-        role: 'Head of Controller of Examination (COE) - GHS',
-        education: 'Education - MA. ,B.Ed',
+        role: '',
+        education: 'Education - MSc. ,B.Ed',
         joiningDate: 'Date of Joining - 02-05-2011',
         experience: 'Teaching Experience - 13 Years'
     },
