@@ -1,6 +1,6 @@
 import React from "react";
 
-import primaryschool from "../../../Assets/Department/PS.jpg";
+import primaryschool from "../../../Assets/Department/primary school.jpg";
 
 import primarySchoolFaculties from "../../../Data/Faculties/Primary School/PrimarySchool";
 
