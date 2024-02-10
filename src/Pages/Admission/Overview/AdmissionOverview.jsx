@@ -115,7 +115,7 @@ const AdmissionOverview = () => {
 
           <div className="counter">
             <h1>
-              <CountUp end={5} enableScrollSpy scrollSpyOnce />
+              <CountUp end={7} enableScrollSpy scrollSpyOnce />
               <span className="plus">+ Guest Faculty</span>
               <p>Faculty</p>
             </h1>
