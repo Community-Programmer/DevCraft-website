@@ -13,11 +13,11 @@ const Footer = () => {
         <h3> Government institution </h3>
         <p> <i class="fa-solid fa-location-dot"></i> 5HF5+FMP, Main Road, Rajanukunte, Bangalore, Karnataka, 560064 </p>
         <p> Govt PU College: </p>
-        <p> <i class="fa-solid fa-phone"> </i> Phone: 9342736575 </p>
+        <p> <i class="fa-solid fa-phone"> </i> Phone: +91 96112 29966 </p>
         <p> Govt High School: </p>
-        <p> <i class="fa-solid fa-phone"> </i> Phone: 9845917244  </p>
+        <p> <i class="fa-solid fa-phone"> </i> Phone: +91 98459 17244  </p>
         <p> Govt primary School: </p>
-        <p> <i class="fa-solid fa-phone"> </i> Phone: 7204602103 </p>
+        <p> <i class="fa-solid fa-phone"> </i> Phone: +91 72046 02103 </p>
 
 
 
