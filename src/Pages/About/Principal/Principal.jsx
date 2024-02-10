@@ -1,16 +1,16 @@
 import React from "react";
 import Principal1 from "../../../Assets/About/PC.png";
-import Principal2 from "../../../Assets/About/PHS.png";
-import Principal3 from "../../../Assets/About/PPS.png";
+import Principal2 from "../../../Assets/About/PHS.jpg";
+import Principal3 from "../../../Assets/About/PPS.jpg";
 
 
-import overview from "../../../Assets/Academic Page/Overview.jpg";
+import principal from "../../../Assets/About/principal.jpg";
 
 const Principal = () => {
   return (
     <>
      <div className="box-heading">
-        <img src={overview} alt="scholarship" />
+        <img src={principal} alt="principal" />
         <div>
           <h1 className="main-heading"> Principals </h1>
           <p>

@@ -13,7 +13,7 @@
 }
 
 .committee-card img{
-    /* width: 40%; */
+    width: 40%;
     border-radius: 1rem;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .committee-section .committee-card{
-    width: 45%;
+    width: 60%;
 
 }
 
