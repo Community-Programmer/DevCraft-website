@@ -21,6 +21,92 @@ body {
 }
 
 
+/* Css for tabs for vision and mission section */
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  gap: 1rem;
+}
+
+.container img{
+  width: 20%;
+  object-fit: contain;
+}
+
+.box {
+  box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+  background-color: #fff;
+  border-radius: 3px;
+  overflow: auto;
+  width: 60%;
+}
+
+.tab-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  position: relative;
+
+}
+
+.tab-list::before {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 33.333%;
+  position: absolute;
+  bottom: 0;
+  background-color: #192F59;
+  transition: .3s;
+}
+
+.tab-item {
+  flex: 1;
+  text-align: center;
+  transition: .3s;
+  opacity: 0.5;
+}
+
+.tab-toggle {
+  display: none;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content ul li{
+  line-height: 2rem ;
+}
+
+.tab-toggle:nth-child(1):checked ~ .tab-list .tab-item:nth-child(1),
+.tab-toggle:nth-child(2):checked ~ .tab-list .tab-item:nth-child(2) {
+  opacity: 1;
+}
+
+.tab-toggle:nth-child(2):checked ~ .tab-list::before {
+  transform: translateX(200%);
+}
+
+
+
+.tab-toggle:nth-child(1):checked ~ .tab-container .tab-content:nth-child(1),
+.tab-toggle:nth-child(2):checked ~ .tab-container .tab-content:nth-child(2){
+   display: block;
+}
+
+.tab-trigger {
+  display: block;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.tab-container {
+  padding: 15px 30px;
+}
+
 /* Override some react Slick style */
 
 .slick-prev {
@@ -206,6 +292,18 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container img{
+    width: 50%;
+  }
+  .box{
+    width: unset;
+  }
 
   .goog-te-gadget-simple{
     padding: 5px !important;

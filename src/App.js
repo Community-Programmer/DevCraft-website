@@ -28,7 +28,6 @@ import Commerce from "./Pages/Department/PU College/Commerce/Commerce";
 import ScrollToTop from "react-scroll-to-top";
 import PageNotFound from "./Pages/PageNotFound/PageNotFound";
 import Layout from "./Layout";
-import VisionMission from "./Pages/About/Vision and Mission/VisionMission";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -82,7 +81,6 @@ function App() {
                 <Route path="/commerce" element={<Commerce />} />
                 <Route path="/high-school" element={<HighSchool />} />
                 <Route path="/primary-school" element={<Primaryschool />} />
-                <Route path="/vision-mission" element={<VisionMission />} />
               </Route>
               <Route path="*" element={<PageNotFound />} />
             </Routes>

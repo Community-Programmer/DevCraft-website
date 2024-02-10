@@ -205,7 +205,7 @@ const Navbar = () => {
               <Link to="/contact"> Help </Link>
             </li>
             <li className="cta-button">
-              <Link to="/vision-mission">Vision & Mission </Link>
+              <Link to="https://maps.app.goo.gl/1ZJ5kq9pNziA2jA77" target="_blank">Locate us</Link>
             </li>
           </ul>
         </div>
