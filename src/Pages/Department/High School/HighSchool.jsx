@@ -1,6 +1,6 @@
 import React from "react";
 import '../Department.css'
-import highschool from "../../../Assets/Department/HS.jpg";
+import highschool from "../../../Assets/Department/high school.jpg";
 
 import highSchoolFaculties from "../../../Data/Faculties/High School/HighSchool";
 
