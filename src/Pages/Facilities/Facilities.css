@@ -28,9 +28,11 @@
     font-size: 1.5rem;
     text-align: center;
     padding-top:17px;
-
- 
  }
+
+.facilities-cover box-heading{
+    height: unset;
+}
 
  .facilities-image {
     display:flex;
