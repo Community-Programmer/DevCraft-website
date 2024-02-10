@@ -10,7 +10,7 @@ const commerceFaculties = [
         image: Faculties1,
         name: 'Mr. Laxmi Prasad S B (History)',
         role: 'Head of Tourism Dept. - PU College',
-        education: 'Education - M.Sc, B.Ed',
+        education: 'Education - M.A, B.Ed',
         joiningDate: 'Date of Joining - 19/07/1994',
         experience: 'Teaching Experience - 30 Years'
     },
@@ -25,7 +25,7 @@ const commerceFaculties = [
     {
         image: Faculties_blank,
         name: 'Mr. B R Shivanna (Economics)',
-        role: 'Head of Library Dept. - GHS',
+        role: '',
         education: 'Education - MA, B.Ed',
         joiningDate: 'Date of Joining - 08/01/2018',
         experience: 'Teaching Experience - 6 Years'

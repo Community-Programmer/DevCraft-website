@@ -9,15 +9,15 @@ const artFaculties = [
         image: Faculties1,
         name: 'Mr. Laxmi Prasad S B (History)',
         role: 'Head of Tourism Dept. - PU College',
-        education: 'Education - M.Sc, B.Ed',
+        education: 'Education - M.A, B.Ed',
         joiningDate: 'Date of Joining - 19/07/1994',
         experience: 'Teaching Experience - 30 Years'
     },
     {
         image: Faculties2,
         name: 'Mr. B R Shivanna (Economics)',
-        role: 'Head of Library Dept. - GHS',
-        education: 'Education - MA, B.Ed',
+        role: '',
+        education: 'Education - M.A, B.Ed',
         joiningDate: 'Date of Joining - 08/01/2018',
         experience: 'Teaching Experience - 6 Years'
     },
@@ -25,7 +25,7 @@ const artFaculties = [
         image: Faculties3,
         name: 'Mrs. Manjula V R (Political Science)',
         role: 'Head of Tourism Dept. - PU College',
-        education: 'Education - MA, M.Phil',
+        education: 'Education - M.A, M.Phil',
         joiningDate: 'Date of Joining - 05/07/2007',
         experience: 'Teaching Experience - 17 Years'
     },
@@ -33,7 +33,7 @@ const artFaculties = [
         image: Faculties4,
         name: 'Mrs. Gouthami J K (Sociology)',
         role: 'Head of NSS Club Dept. - PU College',
-        education: 'Education - MA, B.Ed',
+        education: 'Education - M.A, B.Ed',
         joiningDate: 'Date of Joining - 01/07/2013',
         experience: 'Teaching Experience - 11 Years'
     }
