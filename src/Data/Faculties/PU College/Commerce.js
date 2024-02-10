@@ -25,7 +25,7 @@ const commerceFaculties = [
     {
         image: Faculties_blank,
         name: 'Mr. B R Shivanna (Economics)',
-        role: 'Head of Library Dept. - GHS',
+        role: '',
         education: 'Education - MA, B.Ed',
         joiningDate: 'Date of Joining - 08/01/2018',
         experience: 'Teaching Experience - 6 Years'
