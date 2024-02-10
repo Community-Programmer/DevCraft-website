@@ -1,5 +1,5 @@
 import React from 'react'
-import overview from "../../../Assets/Academic Page/Overview.jpg";
+import pucollege from "../../../Assets/Department/pu college.jpg";
 import { useNavigate } from 'react-router-dom';
 import '../Department.css'
 
@@ -19,7 +19,7 @@ const Pucollege = () => {
   return (
     <>
      <div className="box-heading">
-        <img src={overview} alt="scholarship" />
+        <img src={pucollege} alt="pucollege" />
         <div>
           <h1 className="main-heading"> PU College </h1>
           <p>
