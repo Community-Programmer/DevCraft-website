@@ -280,7 +280,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link to="/principal" onClick={toggleNavbar}>
-                    <FaUser /> Principal
+                    <FaUser /> Principals
                   </Link>
                 </li>
               </ul>
