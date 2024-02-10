@@ -44,6 +44,9 @@ import Ground1 from '../../Assets/Facilities/Ground1.jpg'
 import Ground2 from '../../Assets/Facilities/Ground2.jpg'
 import Ground3 from '../../Assets/Facilities/Ground3.jpg'
 
+
+import facility from '../../Assets/Facilities/Facility.jpg'
+
 const Facilities = () => {
   return (
     <>
@@ -51,8 +54,12 @@ const Facilities = () => {
         <h1> SALIENT FEATURES &amp; FACILITIES </h1>
     </div>
 
-    <div class = "feature">
-        <ul>
+    <div className="box-heading">
+        <img src={facility} alt="Facility" />
+        <div>
+          <h1 className="main-heading">Salient Features & Facilities </h1>
+          <p>
+          <ul>
             <li> The medium of instruction is English/Kannada. </li>
             <li> Our schools use latest technology for effective teaching, learning such as LCD, Computer facility. </li>
             <li> Students are motivated to take part in all types of games, and co-curricular activities.</li>
@@ -61,7 +68,9 @@ const Facilities = () => {
             <li> Celebration of National festivals and other important days in order to develop a feeling of "INDIANNESS". </li>
             <li> Active participation of students in scholastic and co-scholastic activities. </li>
         </ul>
-    </div>
+          </p>
+        </div>
+     </div>
 
   {/* Computer Lab */}
   <div class = "whole-container">
