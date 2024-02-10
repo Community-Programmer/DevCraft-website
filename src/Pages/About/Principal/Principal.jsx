@@ -12,9 +12,9 @@ const Principal = () => {
      <div className="box-heading">
         <img src={overview} alt="scholarship" />
         <div>
-          <h1 className="main-heading"> Principal </h1>
+          <h1 className="main-heading"> Principals </h1>
           <p>
-            Welcome to the Principal page! This page provides a glimpse
+            Welcome to the Principals page! This page provides a glimpse
             into the wealth of experience, dedication, and vision that 
             brings to our institution. As a  leader,  is committed
              to fostering a nurturing learning environment, encouraging
