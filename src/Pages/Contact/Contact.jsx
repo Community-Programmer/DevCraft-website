@@ -31,7 +31,7 @@ const Contact = () => {
               <i class="fa-solid fa-location-dot fa-2xl" />
               <h3>Reach Us</h3>
               <p>
-                5HF5 + FMP, Unnamed Road, Rajanukunte, <br /> Bangalore,
+                5HF5 + FMP, Main Road, Rajanukunte, <br /> Bangalore,
                 Karnataka 560064
               </p>
             </div>
