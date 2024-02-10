@@ -50,9 +50,6 @@ import facility from '../../Assets/Facilities/Facility.jpg'
 const Facilities = () => {
   return (
     <>
-    <div class = "heading">
-        <h1> SALIENT FEATURES &amp; FACILITIES </h1>
-    </div>
 
     <div className="box-heading">
         <img src={facility} alt="Facility" />
