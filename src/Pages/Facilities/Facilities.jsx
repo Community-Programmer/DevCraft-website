@@ -50,7 +50,7 @@ import facility from '../../Assets/Facilities/Facility.jpg'
 const Facilities = () => {
   return (
     <>
-
+ <div className="facilities-cover">
     <div className="box-heading">
         <img src={facility} alt="Facility" />
         <div>
@@ -68,6 +68,7 @@ const Facilities = () => {
           </p>
         </div>
      </div>
+   </div>
 
   {/* Computer Lab */}
   <div class = "whole-container">
