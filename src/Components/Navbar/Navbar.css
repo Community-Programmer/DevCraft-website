@@ -293,7 +293,7 @@
   @media only screen and (max-width: 1074px) and (min-width: 768px) {
 
     .nav-links{
-        gap: 0.8rem;
+        gap: 0.6rem;
     }
 
   }  
@@ -303,6 +303,7 @@
 
 
     /* For Navbar */
+    
     .nav-container-1 .name-text p:nth-child(1){
        display: none;
     }

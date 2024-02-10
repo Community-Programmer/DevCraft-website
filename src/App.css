@@ -3,10 +3,14 @@ body {
   padding: 0;
 }
 
+p{
+  text-align: justify;
+}
+
 /* Google Translator  */
 
 .goog-te-gadget-simple{
-  padding: 8px !important;
+  padding: 5px !important;
   border: 1px solid;
   border-radius: 1rem;
   background-color: #192F59 !important;
