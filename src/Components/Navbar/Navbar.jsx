@@ -104,11 +104,40 @@ const Navbar = () => {
     };
   }, []);
 
+  const googleTranslateElementInit = () => {
+    new window.google.translate.TranslateElement(
+      {
+        pageLanguage: "en",
+        includedLanguages: "en,kn",
+        autoDisplay: false,
+        layout: window.google.translate.TranslateElement.InlineLayout.SIMPLE
+      },
+      "google_translate_element"
+    );
+  };
+  useEffect(() => {
+    // Check if the script has already been added
+    if (!document.querySelector("#google-translate-script")) {
+      // Create script element
+      var addScript = document.createElement("script");
+      addScript.id = "google-translate-script";
+      addScript.setAttribute(
+        "src",
+        "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+      );
+      // Append script to body
+      document.body.appendChild(addScript);
+      // Define googleTranslateElementInit function
+      window.googleTranslateElementInit = googleTranslateElementInit;
+    }
+  }, []);
+
   return (
     <>
       <div className="top-nav">
         <div className="info-start">
           <ul>
+            <div id="google_translate_element"></div>
             <li>
               
               <FaPhone /> +91 9901773645
@@ -116,7 +145,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div class="info-end">
-          <ul >  
+          <ul className="top-nav-links">  
             <li className="quickLinks-submenu">
             <button
                 ref={topNavSubmenuRef}

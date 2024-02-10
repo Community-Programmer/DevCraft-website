@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Academics.css'
-import overview from "../../../Assets/Academic Page/Overview.jpg";
+import timetable from "../../../Assets/Timetable/timetable.jpg";
 import primary from '../../../Assets/Timetable/primary.png'
 
 import CollegeTimetable from '../../../Downloads/CollegeTimetable.pdf'
@@ -12,7 +12,7 @@ const Timetable = () => {
   return (
     <>
       <div className="box-heading">
-        <img src={overview} alt="scholarship" />
+        <img src={timetable} alt="timetable" />
         <div>
           <h1 className="main-heading">Timetable</h1>
           <p>

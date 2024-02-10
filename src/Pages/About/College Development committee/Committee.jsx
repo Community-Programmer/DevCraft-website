@@ -1,5 +1,5 @@
 import React from "react";
-import overview from "../../../Assets/Academic Page/Overview.jpg";
+import committe from "../../../Assets/About/committe.jpg";
 import President from "../../../Assets/About/CDCP.png";
 import VicePresident from "../../../Assets/About/CDCVP.png";
 import Treasurer from "../../../Assets/About/CDCT.png";
@@ -10,7 +10,7 @@ const Committee = () => {
   return (
     <>
       <div className="box-heading">
-        <img src={overview} alt="scholarship" />
+        <img src={committe} alt="committe" />
         <div>
           <h1 className="main-heading"> College Development Committee </h1>
           <p>

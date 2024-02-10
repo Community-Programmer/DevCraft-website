@@ -11,7 +11,7 @@ const Footer = () => {
 <div class = "footer-container">
     <div class="about-school">
         <h3> Government institution </h3>
-        <p> <i class="fa-solid fa-location-dot"></i> 5HF5+FMP, Unnamed Road, Rajanukunte, Bangalore, Karnataka, 560064 </p>
+        <p> <i class="fa-solid fa-location-dot"></i> 5HF5+FMP, Main Road, Rajanukunte, Bangalore, Karnataka, 560064 </p>
         <p> Govt PU College: </p>
         <p> <i class="fa-solid fa-phone"> </i> Phone: 9342736575 </p>
         <p> Govt High School: </p>
