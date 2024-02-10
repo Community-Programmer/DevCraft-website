@@ -221,8 +221,8 @@ const Navbar = () => {
           
           <div className="name-text">
           <Link to='/'>
-            <p> ಸರ್ಕಾರಿ ಸಂಸ್ಥೆ, ರಾಜಾನುಕುಂಟೆ </p>
-            <p> Government Institutions, Rajanukunte </p>
+            <p> ಸರ್ಕಾರಿ ಶಾಲೆಗಳು ಮತ್ತು ಪಿಯು ಕಾಲೇಜು, ರಾಜಾನುಕುಂಟೆ </p>
+            <p> Government Schools and PU College, Rajanukunte </p>
           </Link>
           </div>
           </div>
