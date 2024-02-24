@@ -1,93 +1,51 @@
 # RajanuKunte Government School and College Website
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8cc55596-ceb6-4385-9a73-407abca641bc/deploy-status)](https://app.netlify.com/sites/devnectar-website/deploys)
 
 This project is developed by our team (DevNectar) for the Government School and College Website as part of a web development competition. The purpose of this website is to provide a platform for students, parents, teachers, and administrators to access important information about the school and college.
 
+**Link** : https://devnectar-website.netlify.app
+
+## Team Members
+- [Sarthak Patel](https://github.com/Community-Programmer)
+- [Ankit Singh](https://github.com/Ankit27-09)
+- [Sarthak Rawat](https://github.com/SarthakRawat-1)
+- [Devansh Agarwal](https://github.com/Devansh051)
+
 ## Features
-- Homepage: Welcome message and brief introduction to the institution.
-- About Us: Detailed information about the school and college, including history, mission, and vision.
-- Admissions: Information about admission procedures, requirements, and deadlines.
-- Academics: Details about academic programs, curriculum, and faculty.
-- Events: Upcoming events, activities, and important dates.
-- Gallery: Photo and video gallery showcasing various events and activities.
-- Contact Us: Contact information and inquiry form for reaching out to the institution.
+- **Homepage**: Welcome message and brief introduction to the institution.
+- **About Us**: Detailed information about the school and college, including history, mission, and vision.
+- **Admissions**: Information about admission procedures, requirements, and deadlines.
+- **Academics**: Details about academic programs, curriculum, and faculty.
+- **Events**: Upcoming events, activities, and important dates.
+- **Gallery**: Photo and video gallery showcasing various events and activities.
+- **Contact Us**: Contact information and inquiry form for reaching out to the institution.
 
  and more
 
 
 ## Technologies Used
-- Frontend: React
-- Api: Google Translate Api
-- Version Control: Git
-- Hosting: Netlify
+- **Frontend**: React
+- **Api**: Google Translate Api
+- **Version Control**: Git
+- **Hosting**: Netlify
+
+# Installation
+
+1. Clone the repository:
+  ```bash
+ git clone https://github.com/your-team-name/government-school-website.git
+ ```
+2. Install dependencies:
+  ```bash
+ npm install
+ ```
+3. Start the server:
+  ```bash
+ npm start
+ ```
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Acknowledgments
+We would like to express our gratitude to Coding Crib BMSIT for organizing this competition and providing us with the opportunity to showcase our skills. Special thanks to our mentors and supporters for their guidance and encouragement throughout the development process.
