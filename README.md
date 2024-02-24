@@ -1,3 +1,26 @@
+# RajanuKunte Government School and College Website
+
+This project is developed by our team (DevNectar) for the Government School and College Website as part of a web development competition. The purpose of this website is to provide a platform for students, parents, teachers, and administrators to access important information about the school and college.
+
+## Features
+- Homepage: Welcome message and brief introduction to the institution.
+- About Us: Detailed information about the school and college, including history, mission, and vision.
+- Admissions: Information about admission procedures, requirements, and deadlines.
+- Academics: Details about academic programs, curriculum, and faculty.
+- Events: Upcoming events, activities, and important dates.
+- Gallery: Photo and video gallery showcasing various events and activities.
+- Contact Us: Contact information and inquiry form for reaching out to the institution.
+
+ and more
+
+
+## Technologies Used
+- Frontend: React
+- Api: Google Translate Api
+- Version Control: Git
+- Hosting: Netlify
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
